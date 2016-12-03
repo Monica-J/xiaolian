@@ -7,55 +7,103 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <script src="js/jquery-2.2.2.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    <link type="text/css" href="css/style.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+    $(".main_visual").hover(function(){
+        $("#btn_prev,#btn_next").fadeIn()
+    },function(){
+        $("#btn_prev,#btn_next").fadeOut()
+    });
+    
+    $dragBln = false;
+    
+    $(".main_image").touchSlider({
+        flexible : true,
+        speed : 200,
+        btn_prev : $("#btn_prev"),
+        btn_next : $("#btn_next"),
+        paging : $(".flicking_con a"),
+        counter : function (e){
+            $(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+        }
+    });
+    
+    $(".main_image").bind("mousedown", function() {
+        $dragBln = false;
+    });
+    
+    $(".main_image").bind("dragstart", function() {
+        $dragBln = true;
+    });
+    
+    $(".main_image a").click(function(){
+        if($dragBln) {
+            return false;
+        }
+    });
+    
+    timer = setInterval(function(){
+        $("#btn_next").click();
+    }, 5000);
+    
+    $(".main_visual").hover(function(){
+        clearInterval(timer);
+    },function(){
+        timer = setInterval(function(){
+            $("#btn_next").click();
+        },5000);
+    });
+    
+    $(".main_image").bind("touchstart",function(){
+        clearInterval(timer);
+    }).bind("touchend", function(){
+        timer = setInterval(function(){
+            $("#btn_next").click();
+        }, 5000);
+    });
+    
+});
+</script>
 </head>
 
-<style type="text/css">
-.fluid_container {
-    margin: 0 auto;
-    max-width: 1500px;
-    width: 100%;
-}
-</style>
-
-    <script src="res/jquery-2.2.2.js"></script>
-    <script src="res/jquery.mobile-1.4.5.min.js"></script>
-    <script type='text/javascript' src='scripts/jquery.min.js'></script>
-    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
-    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
-    <script type='text/javascript' src='scripts/camera.min.js'></script> 
-    <script>
-        jQuery(function(){
-            jQuery('#camera_wrap_1').camera({
-                height:'50%',
-                pagination: false,
-                thumbnails: false,
-            });
-        });
-    </script>
 <body> 
     <div data-role="page" theme="b"> 
         <div data-role="header">   
-            <!--顶部轮播图-->
-            <div class="fluid_container">
-                <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
-                    <div data-thumb="images/show-banner.png" data-src="images/show-banner.png"></div> 
-                    <div data-thumb="images/show-banner.png" data-src="images/show-banner.png"></div> 
-                    <div data-thumb="images/show-banner.png" data-src="images/show-banner.png"></div>
-                </div>
+          <!--顶部轮播图-->
+          <div class="main_visual">
+            <div class="flicking_con"><!--小的不才，这里的图片位置是固定的，需要去style.css里面改-->
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
             </div>
+            <div class="main_image">
+                <ul>
+                    <li><img src="images/show-banner.png" class="img"></li>
+                    <li><img src="images/show-banner.png" class="img"></li>
+                    <li><img src="images/show-banner.png" class="img"></li>
+                </ul>
+                <a href="javascript:;" id="btn_prev"></a>
+                <a href="javascript:;" id="btn_next"></a>
+            </div>
+          </div>
+        <!--顶部轮播图 结束-->
         </div>
 
-        <div data-role="content"> 
+        <div data-role="content">
+            <!--校客推荐--> 
             <div class="panel-1">
-                <div class="ui-grid-a">
-                    <div class="ui-block-a" style="margin: -18px -5px 0px 0px;">
-                        <h4 style="font-family:'黑体';font-weight:bold;">校客推荐</h4>
-                    </div>
-                    <div class="ui-block-b" style="margin: -1px -5px 5px 0px;">
-                        <a href="#" style="float:right;color:#6fd7ca;font-size:14px;text-decoration:none;"><span>更多<img src="images/show-more.png" style="width:14px;height:14px;"></span></a>
-                    </div>
+                <div style="margin: -5px -5px 0px 0px;">
+                    <h4 style="font-family:'黑体';font-weight:bold;">校客推荐</h4>
                 </div>
-                <div class="ui-grid-c">
+                <!--推荐用户-->
+                <div class="ui-grid-c" style="margin-top: 10px;">
                     <div class="ui-block-a">
                         <img src="images/show-user.png" style="width: 60px;height: 60px;">
                     </div>
@@ -69,47 +117,33 @@
                         <img src="images/show-user.png" style="width: 60px;height: 60px;">
                     </div>
                 </div>
-            </div>          
+            </div>
+            <!--校客推荐 结束-->          
             <img src="images/shadow.png" style="width:1500px;height:10px;margin-left:-20px;">
+            <!--热门活动-->
             <div class="panel-2">
-                <div class="ui-grid-a">
-                    <div class="ui-block-a" style="margin: 5px -5px 0px 0px;">
+                <div class="ui-grid-a" style="margin-top: 5px;">
+                    <div class="ui-block-a" style="margin-right:-5px;">
                         <h4 style="font-family:'黑体';font-weight:bold;">热门活动</h4>
                     </div>
-                    <div class="ui-block-b" style="margin: 22px -5px 5px 0px;">
-                        <a href="#" style="float:right;color:#6fd7ca;font-size:14px;text-decoration:none;"><span>更多<img src="images/show-more.png" style="width:14px;height:14px;"></span></a>
+                    <div class="ui-block-b" style="margin: 0 -5px 5px 0;">
+                        <a href="active-more.html" style="float:right;color:#6fd7ca;font-size:14px;text-decoration:none;"><span>更多<img src="images/show-more.png" style="width:14px;height:14px;"></span></a>
                     </div>
                 </div>
-                <div class="ui-grid-a" style="margin-bottom:-10px;">
-                    <div class="ui-block-a">
-                        <p style="margin-right:10px; margin-top:5px; font-size:13px; font-family:'微软雅黑';">“第二届燕赵音乐文化研讨会”成功举办</p>
-                    </div>
-                    <div class="ui-block-b">
-                        <img src="images/show-activity-1.jpg" style="float:right; width:150px; height:80px">
-                    </div>
+                <!--热门活动推荐-->
+                <div class="panel-2-1"><!--应该做成轮播效果 但目前还没有实现-->
+                    <a href="active-specific.html" style="text-decoration:none;"><span>
+                        <img src="images/show-activity.png" style="width:100%">
+                        <p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;">河北师范大学2016年度迎新送老晚会将于9月23日在软件楼门口举行，届时将会有精彩的演出，欢迎同学们前来观看</p>
+                    </span></a>
                 </div>
-                <img src="images/show-line.png" style="width:1500px;height:1px;margin-left:-20px;">
-                <div class="ui-grid-a" style="margin-bottom:-10px; margin-top:5px;">
-                    <div class="ui-block-a">
-                        <p style="margin-right:10px; margin-top:5px; font-size:13px; font-family:'微软雅黑';">驻石高校创业大讲堂在我校拉开帷幕</p>
-                    </div>
-                    <div class="ui-block-b">
-                        <img src="images/show-activity-2.jpg" style="float:right; width:150px; height:80px">
-                    </div>
-                </div>
-                <img src="images/show-line.png" style="width:1500px;height:1px;margin-left:-20px;">
-                <div class="ui-grid-a" style="margin-bottom:-10px; margin-top:5px;">
-                    <div class="ui-block-a">
-                        <p style="margin-right:10px; margin-top:5px; font-size:13px; font-family:'微软雅黑';">2016年天文学科评议组研究生课程建设会议在我校召开</p>
-                    </div>
-                    <div class="ui-block-b">
-                        <img src="images/show-activity-3.jpg" style="float:right; width:150px; height:80px">
-                    </div>
-                </div>
+                <!--热门活动推荐 结束-->
+            <!--热门活动 结束-->
             </div>
         </div>
 
-        <div data-role="footer" data-position="fixed"> 
+        <div data-role="footer" data-position="fixed">
+            <!--底部导航栏-->
             <div data-role="navbar">
               <ul>
                 <li >
@@ -144,6 +178,7 @@
                 </li>
               </ul>
             </div>
+            <!--底部导航栏 结束-->
         </div>
     </div> 
 </body> 
