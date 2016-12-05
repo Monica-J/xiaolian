@@ -1,6 +1,8 @@
 ﻿@charset "utf-8";
 *{margin:0;padding:0;list-style:none;border:0;}
 body{width:100%;margin:0 auto;overflow:hidden}
+p{font-size:12px;font-weight:200;}
+/*因为从show点到activity-specific的时候 activity-specific的字号和颜色没有变化 所以加了一条这个 加了之后就能实现效果了*/
 
 /* main_image */
 .main_visual{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
