@@ -15,8 +15,8 @@ p{font-size:12px;font-weight:200;}
 
 div.flicking_con{position:absolute;top:170px;left:50%;z-index:999;width:300px;height:21px;margin:0 0 0 -40px;}
                        /*这里设置了top:140px之后 就只能让图片固定在那个位置 屏幕变化的话图片仍然不动*/
-div.flicking_con a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../images/show-btn-main-img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
+div.flicking_con a{float:left;width:21px;height:21px;margin:0;padding:0;background:url('../images/index-btn-main-img.png') 0 0 no-repeat;display:block;text-indent:-1000px}
 div.flicking_con a.on{background-position:0 -21px}
 #btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:20px!important;height:20px!important;top:50%;margin-top:-20px;display:none;}
-#btn_prev{background:url(../images/show-hover-left.png) left no-repeat;left:0px;}
-#btn_next{background:url(../images/show-hover-right.png) no-repeat right;right:0px;}
+#btn_prev{background:url(../images/index-hover-left.png) left no-repeat;left:0px;}
+#btn_next{background:url(../images/index-hover-right.png) no-repeat right;right:0px;}
