@@ -62,6 +62,11 @@
             <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_add.html">添加大学</a></li>
             <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_list.html">大学列表</a></li>
           </ul>
+          <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
+          <ul>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_add.html">添加动态</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
+          </ul>
         </div>
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
@@ -75,27 +80,29 @@
    	
       <div class="list-group form">
           <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" >
+         <input type="hidden" name="id" value="<?php echo ($task["id"]); ?>" />
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务名称</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="<?php echo ($task["taskname"]); ?>">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="taskname" value="<?php echo ($task["taskname"]); ?>">
               </div>
             </div>
+            
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">发起人</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="<?php echo ($task["initator"]); ?>">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="initator" value="<?php echo ($task["initator"]); ?>">
               </div>
             </div>
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务时间</label>
-              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder=""  name="" value="<?php echo date('Y-m-d  H:i:s');?>"></div>
+              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder=""  name="tasktime" value="<?php echo date('Y-m-d  H:i:s');?>"></div>
             </div>
            
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务地点</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="<?php echo ($task["schoolname"]); ?>">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="schoolname" value="<?php echo ($task["schoolname"]); ?>">
               </div>
             </div>
            
@@ -109,6 +116,37 @@
                 </textarea>
               </div>
             </div>
+
+            <!-- <div class="list-group form">
+          <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" >
+            <input type="hidden" name="ID" value="<?php echo ($task["id"]); ?>" />
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">新闻标题</label>
+              <div class="col-sm-10">
+                <input type="input" name="title" class="form-control" id="inputEmail3" placeholder="" value="<?php echo ($task["taskname"]); ?>">
+              </div>
+            </div>
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">发布时间</label>
+              <div class="col-sm-10"><input type="input" name="posttime" class="form-control" id="inputEmail3" value="<?php echo date('Y-m-d  H:i');?>" ></div>
+            </div>
+           
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">发布人/作者</label>
+              <div class="col-sm-10">
+                <input type="input" name="initator" class="form-control" id="inputEmail3" placeholder="张明亮" value="<?php echo ($task["initator"]); ?>">
+              </div>
+            </div>
+           
+          
+            <div class="list-group-item">
+               <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
+              <div class="col-sm-10">
+                
+                <textarea id="editor_id" name="content" style="width:90%;height:300px;">
+<?php echo ($news["content"]); ?></textarea>
+              </div>
+            </div> -->
             <div class="list-group-item">
               <div class="col-sm-offset-2 col-sm-5">
               <div class="row">

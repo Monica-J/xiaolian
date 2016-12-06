@@ -25,7 +25,7 @@ class IndexController extends Controller {
 		// $this->assign("sc",$keyCount);
 		
 		// $this->display();
-		echo "IndexController index()";
+		U("user/user_list");
 	}
 
     
