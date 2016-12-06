@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>校脸系统新闻添加</title>
+<title>校脸系统动态管理</title>
 <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/end/css/bootstrap.css">
 <link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
 <link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
@@ -65,55 +65,41 @@
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
-    	    <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin">首页</a></li>
-    	    <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin">新闻管理</a></li>
-    	    <li class="active">添加新闻</li>
+    	    <li><a href="#">首页</a></li>
+    	    <li><a href="#">新闻管理</a></li>
+    	    <li class="active">新闻管理列表</li>
   	    </ol>
-    	  <h3 class="down">添加新闻 <small>News Add</small></h3>
-    	  <div class="list-group form">
-    	    <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" action="/xiaolian-git/xiaolian-v0.1/index.php/Admin/news/doAdd">
-    	      <div class="list-group-item">
-    	        <label for="inputEmail3" class="col-sm-2 control-label">新闻标题</label>
-    	        <div class="col-sm-10">
-    	          <input type="input" class="form-control" id="inputEmail3" placeholder="" name="title">
-  	          </div>
-  	        </div>
-    	      <div class="list-group-item">
-    	        <label for="inputEmail3" class="col-sm-2 control-label">发布时间</label>
-    	        <div class="col-sm-10"><input type="input" name="posttime" class="form-control" id="inputEmail3" value="<?php echo date('Y-m-d  H:i:s');?>" ></div>
-  	        </div>
-    	     
-    	      <div class="list-group-item">
-    	        <label for="inputEmail3" class="col-sm-2 control-label">发布人/作者</label>
-    	        <div class="col-sm-10">
-    	          <input type="input" class="form-control" id="inputEmail3" placeholder="" name="author">
-  	          </div>
-  	        </div>
-    	     
-    	    
-    	      <div class="list-group-item">
-               <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
-    	        <div class="col-sm-10">
-    	          
-    	          <textarea id="editor_id" name="content" style="width:90%;height:300px;">
-                    &lt;strong&gt;HTML内容&lt;/strong&gt;
-                </textarea>
-    	        </div>
-  	        </div>
-    	      <div class="list-group-item">
-              <div class="col-sm-offset-2 col-sm-5">
-              <div class="row">
-    	        <div class=" col-sm-5">
-    	          <button type="submit" class="btn btn-primary">添 加 新 闻</button>
-  	          </div>
-              <div class=" col-sm-5">
-   	            <button type="submit" class="btn btn-warning">重 置 内 容</button>
-  	          </div>
-              </div>
-              </div>
-  	        </div>
-  	      </form>
+    	  <div class="table-responsive ">
+    	    <h3>新闻管理列表 <small>News List</small></h3>
+    	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
+    	      <tr>
+    	        <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
+    	        <th width="59%">用户名</th>
+    	        <th width="20%">添加时间</th>
+    	        <th width="21%">操作</th>
+  	        </tr>
+    	      <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
+              <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
+              <td><?php echo ($d["title"]); ?></td>
+              <td><?php echo ($d["author"]); ?></td>
+              <td><?php echo ($d["posttime"]); ?></td>
+              <td><?php echo ($d["scantime"]); ?></td>
+              <td><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/News/news_edit/id/<?php echo ($d["id"]); ?>">修改</a><a href="#"></a> <a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/News/del/id/<?php echo ($d["id"]); ?>">删除</a></td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+  	      </table>
   	    </div>
+    	  <div class="input-group pull-left form">
+    	    <button type="submit" class="btn btn-danger "> <a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/news/del/id/<?php echo ($u["id"]); ?>" style="color:white"> 删除</a></button>
+  	    </div>
+    	 
+    	  <ul class="pagination pull-right" >
+    	    <li class="disabled"><a href="#">&laquo;</a></li>
+    	    <li class="active"><a href="#">1</a></li>
+    	    <li><a href="#">2</a></li>
+    	    <li><a href="#">3</a></li>
+    	    <li><a href="#">4</a></li>
+    	    <li><a href="#">&raquo;</a></li>
+  	    </ul>
   	  </div>
 	</div>
         	
