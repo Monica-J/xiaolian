@@ -3,6 +3,6 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-       echo "hello world!!!!";
+       echo "home里面的indexcontroller";
     }
 }
