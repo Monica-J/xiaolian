@@ -274,3 +274,45 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
 ERR: 无法加载模块:Mine
 
+[ 2016-12-06T16:48:40+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:49:19+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:49:21+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:49:28+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:49:45+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:49:46+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-06T16:50:08+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Mine
+
