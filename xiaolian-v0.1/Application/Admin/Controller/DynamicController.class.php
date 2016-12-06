@@ -11,7 +11,7 @@ class DynamicController extends Controller{
 		}
     }
 	
-	public function news_add(){
+	public function dynamic_add(){
 		$this->display();
 	}
 	
@@ -20,38 +20,41 @@ class DynamicController extends Controller{
 			exit("bad request");
 		}
 		
-		$newsModel = D("news");
+		$dynamicModel = D("dynamic");
 		
-		if(!$newsModel->create()){
-			$this->error($newsModel->getError());
+		if(!$dynamicModel->create()){
+			$this->error($dynamicModel->getError());
 		}
-		if($newsModel->filter('strip_tags')->add()){
-			$this->success("添加成功",U("news_list"));
+		if($dynamicModel->filter('strip_tags')->add()){
+			$this->success("添加成功",U("dynamic_list"));
 		}else{
 			$this->error("添加失败");
 		}
 	}
 	
-	public function news_list(){
-		$newsModel = D("news");
+	public function dynamic_list(){
+		$dynamicModel = M("dynamic");
+
+		
 		//页码
-		$count  = $newsModel->count();    //计算总数
+		$count  = $dynamicModel->count();    //计算总数
 		$Page   = new \Admin\Controller\Page($count, 5);
-		$new   = $newsModel->limit($Page->firstRow. ',' . $Page->listRows)->order('id desc')->select();
+		$dynamic   = $dynamicModel->limit($Page->firstRow.','.$Page->listRows)->order('id desc')->select();
+		//$dynamic = $dynamicModel->order('create_time')->limit($Page->firstRow.','.$Page->listRows)->select();
 		$page = $Page->show();
+
 		$this->assign("page",$page);
-		$this->assign("news",$new);
+		$this->assign("dynamic",$dynamic);
 		
 		$this->display();
 	}
-
-	public function news_edit($id=''){
+	public function dynamic_edit($id=''){
 		if (IS_POST) {
-    		$model = M("news");
+    		$model = M("dynamic");
     		if($model->create()){
     			$result = $model->filter('strip_tags')->save();
 				if($result !== false){
-					$this->success("修改成功", U("News/news_list"));
+					$this->success("修改成功", U("dynamic/dynamic_list"));
 				}else{
 					$this->error($model->getError());
 				}
@@ -61,8 +64,8 @@ class DynamicController extends Controller{
     		if ($id == '') {
     			exit("bad param!");
     		}
-    		$news = M("news")->find($id);
-    		$this->assign("news", $news);
+    		$dynamic = M("dynamic")->find($id);
+    		$this->assign("dynamic", $dynamic);
     		$this->display();
     	}
 	}
@@ -72,7 +75,7 @@ class DynamicController extends Controller{
 		if ($id == '') {
 			exit("bad param!");
 		}
-		if(M("news")->delete($id)){
+		if(M("dynamic")->delete($id)){
 			$this->success("删除成功！");
 		}
     }

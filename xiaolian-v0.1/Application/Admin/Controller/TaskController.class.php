@@ -59,13 +59,19 @@ class TaskController extends Controller {
 
 public function task_edit($id=''){
 		if (IS_POST) {
-    		$model = M("task");
-    		if($model->create()){
-    			$result = $model->filter('strip_tags')->save();
+    		$Model = M("task");
+    		// var_dump($Model);
+    		// exit;
+    		if($Model->create()){
+    			$result = $Model->filter('strip_tags')->save();
+
+       //      var_dump($result);
+    			// exit;
+    			
 				if($result !== false){
 					$this->success("修改成功", U("Task/task_list"));
 				}else{
-					$this->error($model->getError());
+					$this->error($Model->getError());
 				}
     		}
     	}
@@ -73,7 +79,7 @@ public function task_edit($id=''){
     		if ($id == '') {
     			exit("bad param!");
     		}
-    		$Users = M("task")->find($id);
+    		$task = M("task")->find($id);
     		$this->assign("task", $task);
     		$this->display();
     	}

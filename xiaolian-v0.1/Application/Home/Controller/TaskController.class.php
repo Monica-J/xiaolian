@@ -1,9 +1,9 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class TaskController extends Controller {
     public function index(){
        $this->display();
-       
     }
+   
 }

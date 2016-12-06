@@ -2,19 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>校脸新闻添加</title>
+<title>校脸系统用户管理</title>
 <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/end/css/bootstrap.css">
 <link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
 <link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
 <script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
 <script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
-<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
-<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
-<script>
-        KindEditor.ready(function(K) {
-                window.editor = K.create('#editor_id');
-        });
-</script>
+
 
 </head>
 
@@ -64,63 +58,70 @@
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_add.html">添加动态</a></li>
+            
             <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
           </ul>
         </div>
       </div>
-      <div class="col-md-10 col-md-offset-2 ">
+    	<div class="col-md-10 col-md-offset-2 ">
         <ol class="breadcrumb">
-          <li><a href="#">首页</a></li>
-          <li><a href="#">大学管理</a></li>
-          <li class="active">编辑大学</li>
+          <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin">首页</a></li>
+          <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/lists">动态管理</a></li>
+          <li class="active">修改动态</li>
         </ol>
-        <div class="table-responsive ">
-          <h3>编辑大学 <small>School Edit</small></h3>
-         <div class="list-group form">
+        <h3 class="down">修改动态 <small>Dynamic Edit</small></h3>
+        <div class="list-group form">
           <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" >
-          <input type="hidden" name="id" value="<?php echo ($school["id"]); ?>">
+            <input type="hidden" name="id" value="<?php echo ($dynamic["id"]); ?>" />
             <div class="list-group-item">
-              <label for="inputEmail3" class="col-sm-2 control-label">大学名称</label>
+              <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="sname" value="<?php echo ($school["sname"]); ?>">
+                <input type="input" name="username" class="form-control" id="inputEmail3" placeholder="" value="<?php echo ($dynamic["username"]); ?>">
               </div>
             </div>
-            
             <div class="list-group-item">
-              <label for="inputEmail3" class="col-sm-2 control-label">添加时间</label>
-              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder=""  name="stime" value="<?php echo date('Y-m-d  H:i:s');?>"></div>
+              <label for="inputEmail3" class="col-sm-2 control-label">发布时间</label>
+              <div class="col-sm-10"><input type="input" name="addtime" class="form-control" id="inputEmail3" value="<?php echo date('Y-m-d  H:i');?>" ></div>
             </div>
            
-            <div class="list-group-item">
-              <label for="inputEmail3" class="col-sm-2 control-label">大学地点</label>
-              <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="splace" value="<?php echo ($school["splace"]); ?>">
-              </div>
-            </div>
+            
            
           
-            
+            <div class="list-group-item">
+               <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
+              <div class="col-sm-10">
+                
+                <textarea id="editor_id" name="content" style="width:90%;height:300px;">
+<?php echo ($dynamic["content"]); ?></textarea>
+              </div>
+            </div>
             <div class="list-group-item">
               <div class="col-sm-offset-2 col-sm-5">
               <div class="row">
               <div class=" col-sm-5">
-                <button type="submit" class="btn btn-primary">保存</button>
+                <input type="submit" name="submit" class="btn btn-primary" value="保 存 动 态">
+              </div>
+              <div class=" col-sm-5">
+                <button type="submit" class="btn btn-warning">重 置 内 容</button>
               </div>
               </div>
               </div>
             </div>
           </form>
         </div>
-          
-     
-  
-    </div>
-    </div>
+      </div>
   </div>
           
   
 </div>
+
+<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
+<script>
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#editor_id');
+        });
+</script>
 <script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery-ui.js"></script>
 <script>
 $( "#accordion" ).accordion({
