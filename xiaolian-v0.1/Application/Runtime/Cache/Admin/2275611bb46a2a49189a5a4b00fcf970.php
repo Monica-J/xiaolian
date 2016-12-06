@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>校脸-登录</title>
-<link rel="stylesheet" href="/xiaolian/thinkphp_3.2.3/Public/end/css/bootstrap.css">
-<link href="/xiaolian/thinkphp_3.2.3/Public/end/css/jquery-ui.css" rel="stylesheet">
-<link href="/xiaolian/thinkphp_3.2.3/Public/end/css/mystyle.css" rel="stylesheet">
-<script src="/xiaolian/thinkphp_3.2.3/Public/end/js/jquery.js"></script>    
-<script src="/xiaolian/thinkphp_3.2.3/Public/end/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/end/css/bootstrap.css">
+<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
+<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
+<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
+<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -44,7 +44,7 @@
   <input type="text" name="username" class="form-control" placeholder="">
 </div>
 <div class="input-group">
-  <span class="input-group-addon">密<img src="/xiaolian/thinkphp_3.2.3/Public/end/images/em.png" width="12" height="20">码：</span>
+  <span class="input-group-addon">密<img src="/xiaolian-git/xiaolian-v0.1/Public/end/images/em.png" width="12" height="20">码：</span>
   <input type="password" name="password" class="form-control" placeholder="">
 </div>
  <div class="row yz">
@@ -52,7 +52,7 @@
 <div class="input-group"> 
   <span class="input-group-addon">验证码：</span>
   <input type="text" class="form-control" placeholder=""></div></div>
-  <div class="col-md-3"><img src="/xiaolian/thinkphp_3.2.3/Public/end/images/yzm.gif" width="78" height="30" class="yzm"></div>
+  <div class="col-md-3"><img src="/xiaolian-git/xiaolian-v0.1/Public/end/images/yzm.gif" width="78" height="30" class="yzm"></div>
 </div>
 <div class="checkbox">
     <label>
