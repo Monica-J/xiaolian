@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>校脸系统新闻添加</title>
+<<<<<<< HEAD
 <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/end/css/bootstrap.css">
 <link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
 <link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
@@ -10,11 +11,24 @@
 <script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
 <script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
 <script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
+=======
+<link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/end/css/bootstrap.css">
+<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
+<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
+<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
+<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
+<script charset="utf-8" src="/xiaolian-git/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/xiaolian-git/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
+>>>>>>> 81c3ae0a68e941c4ac1ced05089dbd71632b69ab
 <script>
         KindEditor.ready(function(K) {
                 window.editor = K.create('#editor_id');
         });
 </script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 81c3ae0a68e941c4ac1ced05089dbd71632b69ab
 </head>
 
 <body>
@@ -64,7 +78,11 @@
           <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
             
+<<<<<<< HEAD
             <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
+=======
+            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
+>>>>>>> 81c3ae0a68e941c4ac1ced05089dbd71632b69ab
           </ul>
         </div>
       </div>
