@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>校脸系统新闻列表</title>
+<title>校脸系统动态管理</title>
 <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/end/css/bootstrap.css">
 <link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
 <link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
@@ -74,11 +74,9 @@
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
-    	        <th width="59%">新闻标题</th>
-    	        <th width="7%">作者</th>
-    	        <th width="10%">添加时间</th>
-    	        <th width="7%">访问量</th>
-    	        <th width="12%">操作</th>
+    	        <th width="59%">用户名</th>
+    	        <th width="20%">添加时间</th>
+    	        <th width="21%">操作</th>
   	        </tr>
     	      <?php if(is_array($news)): $i = 0; $__LIST__ = $news;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
               <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>

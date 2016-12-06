@@ -2,7 +2,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-class NewsController extends Controller{
+class DynamicController extends Controller{
 	
 	public function __construct(){
     	parent::__construct();
