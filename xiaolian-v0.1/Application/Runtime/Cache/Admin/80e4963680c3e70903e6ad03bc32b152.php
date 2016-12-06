@@ -58,7 +58,6 @@
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_add.html">添加动态</a></li>
             <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
           </ul>
         </div>
