@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <title>校脸任务添加</title>
-<link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/end/css/bootstrap.css">
-<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
-<link href="/xiaolian-git/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
-<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
-<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
-<script charset="utf-8" src="/xiaolian-git/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
-<script charset="utf-8" src="/xiaolian-git/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
+<link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/end/css/bootstrap.css">
+<link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
+<link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
+<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/kindeditor.js"></script>
+<script charset="utf-8" src="/xiaoliangit/xiaolian-v0.1/Public/end/js/editor/lang/zh_CN.js"></script>
 <script>
         KindEditor.ready(function(K) {
                 window.editor = K.create('#editor_id');
@@ -42,44 +42,48 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li  ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/user/user_list.html">用户管理</a></li>
-              <!-- <li  ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/user/user_add.html">添加管理员</a></li>
-            <li ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
-            <li ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/user/user_edit.html">修改个人信息</a></li> -->
+            <li  ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_list.html">用户管理</a></li>
+              <!-- <li  ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_add.html">添加管理员</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_edit.html">修改个人信息</a></li> -->
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>任务管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/task/task_add.html">添加任务</a></li>
-            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/task/task_list.html">推荐任务</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/task/task_add.html">添加任务</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/task/task_list.html">推荐任务</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-book"></span>新闻管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/news/news_add.html">添加新闻</a></li>
-            <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/news/news_list.html">管理新闻</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html">添加新闻</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html">管理新闻</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>大学管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/school/school_add.html">添加大学</a></li>
-            <li ><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/school/school_list.html">大学列表</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_add.html">添加大学</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_list.html">大学列表</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
            
+<<<<<<< HEAD
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
+=======
             <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
+>>>>>>> 81c3ae0a68e941c4ac1ced05089dbd71632b69ab
           </ul>
         </div>
       </div>
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
-    	    <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin">首页</a></li>
-    	    <li><a href="/xiaolian-git/xiaolian-v0.1/index.php/Admin">任务管理</a></li>
+    	    <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin">首页</a></li>
+    	    <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin">任务管理</a></li>
     	    <li class="active">添加任务</li>
   	    </ol>
     	  <h3 class="down">添加任务 <small>Tasks Add</small></h3>
     	 
    	
       <div class="list-group form">
-          <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" action="/xiaolian-git/xiaolian-v0.1/index.php/Admin/task/doAdd">
+          <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" action="/xiaoliangit/xiaolian-v0.1/index.php/Admin/task/doAdd">
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务名称</label>
               <div class="col-sm-10">
@@ -105,12 +109,12 @@
             </div>
            
           
-            <div class="list-group-item">
+             <div class="list-group-item">
                <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
               <div class="col-sm-10">
                 
                 <textarea id="editor_id" name="content" style="width:90%;height:300px;">
-                    &lt;strong&gt;任务内容&lt;/strong&gt;
+                    &lt;strong&gt;HTML内容&lt;/strong&gt;
                 </textarea>
               </div>
             </div>
@@ -137,7 +141,7 @@
         	
 	
 </div>
-<script src="/xiaolian-git/xiaolian-v0.1/Public/end/js/jquery-ui.js"></script>
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery-ui.js"></script>
 <script>
 $( "#accordion" ).accordion({
       heightStyle: "content"
