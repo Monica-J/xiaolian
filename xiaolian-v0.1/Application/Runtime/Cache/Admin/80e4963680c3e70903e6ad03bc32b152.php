@@ -80,12 +80,13 @@
     	      <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><tr>
               <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
               <td><?php echo ($d["username"]); ?></td>
-              <td><?php echo ($d["addtime</td>
-              <td><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_edit/id/<?php echo ($d"]["id"]); ?>">修改</a><a href="#"></a> <a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/del/id/<?php echo ($d["id"]); ?>">删除</a></td> </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+              <td><?php echo ($d["addtime"]); ?></td>
+              <td><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_edit/id/<?php echo ($d["id"]); ?>">修改</a><a href="#"></a> <a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/del/id/<?php echo ($d["id"]); ?>">删除</a></td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
   	      </table>
   	    </div>
     	  <div class="input-group pull-left form">
-    	    <button type="submit" class="btn btn-danger "> <a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/del/id/{$u["id"]); ?>" style="color:white"> 删除</a></button>
+    	    <button type="submit" class="btn btn-danger "> <a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/del/id/<?php echo ($u["id"]); ?>" style="color:white"> 删除</a></button>
   	    </div>
     	 
     	  <ul class="pagination pull-right" >
