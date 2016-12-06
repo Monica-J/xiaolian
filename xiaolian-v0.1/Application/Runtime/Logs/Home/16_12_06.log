@@ -20,3 +20,14 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003222s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003292s ]
 
+[ 2016-12-06T17:15:04+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaolian-v0.1/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
