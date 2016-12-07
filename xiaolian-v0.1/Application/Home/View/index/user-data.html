@@ -11,8 +11,6 @@
 <style type="text/css">
 	*{margin:0;padding:0;list-style:none;border:0;}
 	p{font-weight:200;}
-	.panel-1 img{clear:both; display:block; margin:auto;}
-	.panel-1 p{text-align:center;}
 </style>
   </head>
 
@@ -24,21 +22,27 @@
 		</div>
 		<!--顶部信息-->
 		<div data-role="content" style="background:url(__PUBLIC__/front/images/user-data-bg.png);">
-			<div class="panel-1">
-				<img src="__PUBLIC__/front/images/mine-user.png">
-				<p style="margin-top:10px;">我叫李自由</p>
-				<p style="color:#8E8E8E;font-size:12px;margin-top:5px;">没有谁是一座孤岛，在大海里独居</p>
-			</div>
+			<img src="__PUBLIC__/front/images/mine-user.png" style="clear:both; display:block; margin:auto;">
+			<p style="margin-top:10px;font-size:16px;text-align:center;font-weight:400;">我叫李自由</p>
+			<p style="color:#8E8E8E;margin-top:5px;font-size:12px;text-align:center;">没有谁是一座孤岛，在大海里独居</p>
 		</div>
 		<!--具体信息-->
         <div data-role="content">
-        	<div class="panel-2">
-				<ul style="margin-left:40px; margin-top:10px;">
-					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-sex.png);"><p>性别</p></li>
-					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-birthday.png);"><p>生日</p></li>
-					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-school.png);"><p>大学</p></li>
-				</ul>
-			</div>
+			<ul style="margin-left:40px;">
+				<li style="list-style-image:url(__PUBLIC__/front/images/user-data-sex.png);">
+					<p style="margin-bottom:-10px;font-size:16px;">性别</p>
+					<img src="__PUBLIC__/front/images/longline.png" style="width:1500px;height:1px;margin-left:-150px;">
+				</li>
+				<li style="list-style-image:url(__PUBLIC__/front/images/user-data-birthday.png);">
+					<p style="margin:10px 0-10px 0;font-size:16px;">生日</p>
+					<img src="__PUBLIC__/front/images/longline.png" style="width:1500px;height:1px;margin-left:-150px;">
+				</li>
+				<li style="list-style-image:url(__PUBLIC__/front/images/user-data-school.png);">
+					<p style="margin:10px 0-10px 0;font-size:16px;">大学</p>
+					<img src="__PUBLIC__/front/images/longline.png" style="width:1500px;height:1px;margin-left:-150px;">
+				</li>
+			</ul>
+			<button style="color:#fff; background-color:#6fd7ca; margin-top:50px; height:40px; padding-top:7px; font-weight:200; font-size:18px;">加关注</button>
 		</div>
 	</div>
 
