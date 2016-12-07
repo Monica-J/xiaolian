@@ -153,8 +153,13 @@ $(document).ready(function(){
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/task/task.html" style="background-color:#6fd7ca;" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/task/task.html'">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html'">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+>>>>>>> 66561fad01489df0109c06820afd2c0e65b2f3e3
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">匹配任务</p>
                     </a>
                 </li>
@@ -165,8 +170,13 @@ $(document).ready(function(){
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html" style="background-color:#6fd7ca;" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html'"><!--onclick是为了能保证放到thingphp里也能正常跳转过去 其他页面可以就先没有加这一行-->
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;"onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html'">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+>>>>>>> 66561fad01489df0109c06820afd2c0e65b2f3e3
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">足迹</p>
                     </a>
                 </li>

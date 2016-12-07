@@ -15,10 +15,10 @@
 			<!--导航条-->
 			<div data-role="navbar">
 				<ul>
-					<li><a href="" style="font-size:15px;">所有动态</a></li>
-					<li><a href="" style="font-size:15px;">特别关心</a></li>
-					<li><a href="" style="font-size:15px;">文字动态</a></li>
-					<li><a href="" style="font-size:15px;">图片动态</a></li>
+					<li><a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html" style="font-size:15px;">所有动态</a></li>
+                    <li><a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/tbgx.html" style="font-size:15px;">特别关心</a></li>
+                    <li><a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/wzdt.html" style="font-size:15px;">文字动态</a></li>
+                    <li><a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/tpdt.html" style="font-size:15px;">图片动态</a></li>
 				</ul>
 			</div>
 		</div>
