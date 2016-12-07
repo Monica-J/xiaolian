@@ -9,7 +9,7 @@
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" id="page2">
 		
 		<div data-role="header" data-position="fixed">
 			<!--导航条-->

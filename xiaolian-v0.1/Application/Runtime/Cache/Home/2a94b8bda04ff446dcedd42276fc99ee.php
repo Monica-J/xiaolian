@@ -73,7 +73,7 @@ $(document).ready(function(){
 </script>
   </head>
 
-<body> 
+  <body> 
     <div data-role="page" theme="b"> 
         <div data-role="header">   
           <!--顶部轮播图-->
@@ -153,7 +153,7 @@ $(document).ready(function(){
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html'">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">匹配任务</p>
                     </a>
@@ -165,7 +165,7 @@ $(document).ready(function(){
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;"onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html'">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">足迹</p>
                     </a>
@@ -180,6 +180,7 @@ $(document).ready(function(){
             </div>
             <!--底部导航栏 结束-->
         </div>
-    </div> 
-</body> 
+    </div>
+
+  </body> 
 </html>
