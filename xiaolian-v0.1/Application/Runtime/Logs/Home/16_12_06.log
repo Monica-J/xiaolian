@@ -21,6 +21,18 @@ INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003222s ]
 INFO: [ app_end ] --END-- [ RunTime:0.003292s ]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+[ 2016-12-06T17:15:04+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaolian-v0.1/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+=======
 [ 2016-12-06T14:59:01+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
@@ -349,6 +361,7 @@ INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002336s ]
 INFO: [ app_end ] --END-- [ RunTime:0.002425s ]
+>>>>>>> 949a864f1eeadc321c121691f5cf5e236cc6a8c1
 =======
 [ 2016-12-06T15:21:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/index.php/home
 INFO: [ app_init ] --START--
@@ -531,6 +544,7 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+>>>>>>> 0036863767c32626023f77efb7d4f3bf89fa2cc2
 
 [ 2016-12-06T17:17:05+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/index.php/
 INFO: [ app_init ] --START--

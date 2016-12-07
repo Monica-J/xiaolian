@@ -1,15 +1,15 @@
 <!DOCTYPE html>     
 <html>     
 <head>     
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>登陆界面</title>     
 	<meta name="viewport" content="width=device-width, initial-scale=1">     
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" />     
-	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>     
+	  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>          
 	<script src="http://code.jquery.com/mobile/latest/jquery.mobile.min.js"></script>     
-    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/dl-style.css">  
 	<script>
-	function but_click()
+	  function but_click()
 	{
 		var temp1=$("#zhanghao").val();
 		if(temp1=="账号：")
@@ -38,17 +38,17 @@
 		<div data-role="content">
 			<div data-role="controlgroup" data-type="vertical">
             <div style="text-align:center">
-                <img src="images/header.png">
+                <img src="__PUBLIC__/front/images/header.png">
             </div>
             </div>
                
             <div class="line1">
-                <img src="images/user.jpg">
+                <img src="__PUBLIC__/front/images/user.jpg">
                 <input type="text"  id="zhanghao" class="zhanghao" value="账号" onfocus="if(value=='账号') {value=''}" onblur="if (value=='') {value='账号'}" data-role="none">
             </div>
             
             <div class="line2">
-                <img src="images/lock.jpg">
+                <img src="__PUBLIC__/front/images/lock.jpg">
                 <input type="text"  id="mima" class="mima" value="密码" onfocus="if(value=='密码') {value=''}" onblur="if (value=='') {value='密码'}" data-role="none">
             </div>
             
