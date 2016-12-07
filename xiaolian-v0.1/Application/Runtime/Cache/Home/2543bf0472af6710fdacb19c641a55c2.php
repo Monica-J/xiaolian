@@ -29,7 +29,7 @@
 	<div data-role="page">
 		
 		<div data-role="header" style="background-color:#6fd7ca; color:white;">
-			<a href="mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
 			<h1 style="font-weight:200;">完善个人资料</h1>
 		</div>
 
@@ -38,7 +38,7 @@
                 <!--实现点击头像或者相机可以更改头像-->
 	            <div class="avatar">    
 	                <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
-	                <button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button>
+	                <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/avatar.html" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/avatar.html'"><button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
 	            </div>
 
 	           <div class="infor">
@@ -110,7 +110,7 @@
 		</div>
 
 	</div>
-
+<!--
 	<script>
         var as = new ActionSheet({
             buttons: {
@@ -128,5 +128,6 @@
             as.show();
         });
     </script>
+-->
 </body>
 </html>

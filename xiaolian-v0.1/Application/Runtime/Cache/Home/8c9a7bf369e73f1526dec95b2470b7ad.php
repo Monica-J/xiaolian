@@ -12,7 +12,7 @@
 	<div data-role="page">
 		<div data-role="header" style="background-color:#6fd7ca; color:white;">
 			<a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
-			<h1 style="font-weight:200;">好友 6</h1>			
+			<h1 style="font-weight:200;">好友</h1>			
 		</div>
 		<div data-role="content">
 			<div>
