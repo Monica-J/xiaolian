@@ -80,27 +80,29 @@
    	
       <div class="list-group form">
           <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" >
+         <input type="hidden" name="id" value="{$task.id}" />
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务名称</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="{$task.taskname}">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="taskname" value="{$task.taskname}">
               </div>
             </div>
+            
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">发起人</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="{$task.initator}">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="initator" value="{$task.initator}">
               </div>
             </div>
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务时间</label>
-              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder=""  name="" value="<?php echo date('Y-m-d  H:i:s');?>"></div>
+              <div class="col-sm-10"><input type="input" class="form-control" id="inputEmail3" placeholder=""  name="tasktime" value="<?php echo date('Y-m-d  H:i:s');?>"></div>
             </div>
            
             <div class="list-group-item">
               <label for="inputEmail3" class="col-sm-2 control-label">任务地点</label>
               <div class="col-sm-10">
-                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="" value="{$task.schoolname}">
+                <input type="input" class="form-control" id="inputEmail3" placeholder="" name="schoolname" value="{$task.schoolname}">
               </div>
             </div>
            
@@ -114,6 +116,37 @@
                 </textarea>
               </div>
             </div>
+
+            <!-- <div class="list-group form">
+          <form enctype="multipart/form-data" class="form-horizontal" role="form" method="post" >
+            <input type="hidden" name="ID" value="{$task.id}" />
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">新闻标题</label>
+              <div class="col-sm-10">
+                <input type="input" name="title" class="form-control" id="inputEmail3" placeholder="" value="{$task.taskname}">
+              </div>
+            </div>
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">发布时间</label>
+              <div class="col-sm-10"><input type="input" name="posttime" class="form-control" id="inputEmail3" value="<?php echo date('Y-m-d  H:i');?>" ></div>
+            </div>
+           
+            <div class="list-group-item">
+              <label for="inputEmail3" class="col-sm-2 control-label">发布人/作者</label>
+              <div class="col-sm-10">
+                <input type="input" name="initator" class="form-control" id="inputEmail3" placeholder="张明亮" value="{$task.initator}">
+              </div>
+            </div>
+           
+          
+            <div class="list-group-item">
+               <label for="inputEmail3" class="col-sm-2 control-label">内容</label>
+              <div class="col-sm-10">
+                
+                <textarea id="editor_id" name="content" style="width:90%;height:300px;">
+{$news.content}</textarea>
+              </div>
+            </div> -->
             <div class="list-group-item">
               <div class="col-sm-offset-2 col-sm-5">
               <div class="row">

@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>校脸系统用户管理</title>
-<link rel="stylesheet" href="/xiaolian/thinkphp_3.2.3/Public/end/css/bootstrap.css">
-<link href="/xiaolian/thinkphp_3.2.3/Public/end/css/jquery-ui.css" rel="stylesheet">
-<link href="/xiaolian/thinkphp_3.2.3/Public/end/css/mystyle.css" rel="stylesheet">
-<script src="/xiaolian/thinkphp_3.2.3/Public/end/js/jquery.js"></script>    
-<script src="/xiaolian/thinkphp_3.2.3/Public/end/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/end/css/bootstrap.css">
+<link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/jquery-ui.css" rel="stylesheet">
+<link href="/xiaoliangit/xiaolian-v0.1/Public/end/css/mystyle.css" rel="stylesheet">
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery.js"></script>    
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/bootstrap.min.js"></script>
 
 
 </head>
@@ -36,25 +36,30 @@
         <div id="accordion">
           <h3><a href="#"><span class="glyphicon glyphicon-lock"></span>账户管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li  ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/user/user_list.html">用户管理</a></li>
-              <!-- <li  ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/user/user_add.html">添加管理员</a></li>
-            <li ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
-            <li ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/user/user_edit.html">修改个人信息</a></li> -->
+            <li  ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_list.html">用户管理</a></li>
+              <!-- <li  ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_add.html">添加管理员</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_pass.html">修改个人密码</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_edit.html">修改个人信息</a></li> -->
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-file"></span>任务管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/task/task_add.html">添加任务</a></li>
-            <li><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/task/task_list.html">推荐任务</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/task/task_add.html">添加任务</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/task/task_list.html">推荐任务</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-book"></span>新闻管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/news/news_add.html">添加新闻</a></li>
-            <li><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/news/news_list.html">管理新闻</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html">添加新闻</a></li>
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html">管理新闻</a></li>
           </ul>
           <h3><a href="#"><span class="glyphicon glyphicon-tags"></span>大学管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
           <ul>
-            <li ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/school/school_add.html">添加大学</a></li>
-            <li ><a href="/xiaolian/thinkphp_3.2.3/index.php/Admin/school/school_list.html">大学列表</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_add.html">添加大学</a></li>
+            <li ><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/school/school_list.html">大学列表</a></li>
+          </ul>
+          <h3><a href="#"><span class="glyphicon glyphicon-star"></span>动态管理<span class="glyphicon glyphicon-chevron-down"></span></a></h3>
+          <ul>
+           
+            <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Admin/dynamic/dynamic_list.html">管理动态</a></li>
           </ul>
         </div>
       </div>
@@ -68,9 +73,9 @@
           <h3>个人信息修改 <small>Personal Modify</small></h3>
           <div class="list-group ">
             <div class="list-group-item">
-              <form role="form" method="post" action="/xiaolian/thinkphp_3.2.3/index.php/Admin/User/user_edit/id/4">
+              <form role="form" method="post" action="/xiaoliangit/xiaolian-v0.1/index.php/Admin/User/user_edit/id/1">
                 <input type="hidden" name="id" value="<?php echo ($users["id"]); ?>" />
-                <div class="input-group"> <span class="input-group-addon">用<img src="/xiaolian/thinkphp_3.2.3/Public/end/images/em.png" alt="" width="6" height="20">户<img src="/xiaolian/thinkphp_3.2.3/Public/end/images/em.png" alt="" width="6" height="20">名：</span>
+                <div class="input-group"> <span class="input-group-addon">用<img src="/xiaoliangit/xiaolian-v0.1/Public/end/images/em.png" alt="" width="6" height="20">户<img src="/xiaoliangit/xiaolian-v0.1/Public/end/images/em.png" alt="" width="6" height="20">名：</span>
                   <input type="text" class="form-control" placeholder="<?php echo ($users["username"]); ?>" readonly>
                 </div>
                 <div class="input-group "> <span class="input-group-addon" for="inputWarning1">真实姓名：</span>
@@ -101,7 +106,7 @@
         	
 	
 </div>
-<script src="/xiaolian/thinkphp_3.2.3/Public/end/js/jquery-ui.js"></script>
+<script src="/xiaoliangit/xiaolian-v0.1/Public/end/js/jquery-ui.js"></script>
 <script>
 $( "#accordion" ).accordion({
       heightStyle: "content"
