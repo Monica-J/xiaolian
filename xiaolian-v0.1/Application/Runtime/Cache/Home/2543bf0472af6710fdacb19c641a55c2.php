@@ -7,9 +7,9 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
-    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
     <style>
         body{
             margin: 0;
@@ -37,13 +37,8 @@
 			<div class="user" style="height:200px;">
                 <!--实现点击头像或者相机可以更改头像-->
 	            <div class="avatar">    
-<<<<<<< HEAD
 	                <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
 	                <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/avatar.html" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/avatar.html'"><button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
-=======
-	                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
-	                <button type="button" id="open" style="background:url(/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button>
->>>>>>> 867a93d6f41f1bb50d20e0ea621ed6b56d86f3da
 	            </div>
 
 	           <div class="infor">
@@ -52,20 +47,20 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
-									<label for="username" style="margin:20px 80px 0 0px;">用户名</label>
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
+									<label for="username" style="margin:20px 0px 0 35px;">用户名</label>
 								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -70px;">
+								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="text" name="username" id="username" >
 								</div>
 							</div>
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png" style="float:left; margin:14px 0 0 0;">
-									<label for="sex" style="margin:20px 90px 0 0px;">性别</label>
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png" style="float:left; margin:14px 0 0 0;">
+									<label for="sex" style="margin:20px 0px 0 35px;">性别</label>
 								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -70px;">
+								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<fieldset>
 										<select name="sex" id="sex" style="heigth:80px;">
 											<option value="boy">男</option>
@@ -77,30 +72,30 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png" style="float:left; margin:14px 0 0 0;">
-									<label for="birth" style="margin:20px 90px 0 0px;">生日</label>
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png" style="float:left; margin:14px 0 0 0;">
+									<label for="birth" style="margin:20px 0px 0 35px;">生日</label>
 								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -70px;">
+								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="date" name="birth" id="birth" >
 								</div>
 							</div>
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-univer.png" style="float:left; margin:14px 0 0 0;">
-									<label for="univer" style="margin:20px 90px 0 0px;">大学</label>
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-univer.png" style="float:left; margin:14px 0 0 0;">
+									<label for="univer" style="margin:20px 0px 0 35px;">大学</label>
 								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -70px;">
+								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="text" name="univer" id="univer" >
 								</div>
 							</div>
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-gq.png" style="float:left; margin:14px 0 0 0;">
-									<label for="gq" style="margin:20px 80px 0 0px;">个性签名</label>
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-gq.png" style="float:left; margin:14px 0 0 0;">
+									<label for="gq" style="margin:20px 0px 0 35px;">个性签名</label>
 								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -70px;">
+								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="text" name="gq" id="gq">
 								</div>
 							</div>
