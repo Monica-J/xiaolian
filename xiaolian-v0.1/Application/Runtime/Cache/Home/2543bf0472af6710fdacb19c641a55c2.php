@@ -1,0 +1,112 @@
+<?php if (!defined('THINK_PATH')) exit();?><DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>设置</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+    <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
+    <style>
+        body{
+            margin: 0;
+            text-align: center;
+        }
+
+        button{
+            margin: 100px auto;
+            padding: 2em;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+            background: #FFF;
+        }
+    </style>
+</head>
+<body>
+	<div data-role="page">
+		
+		<div data-role="header" style="background-color:#6fd7ca; color:white;">
+			<a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<h1 style="font-weight:200;">完善个人资料</h1>
+		</div>
+
+		<div data-role="content" style="overflow-x:visible;">
+			<div class="user" style="height:200px;">
+                <!--实现点击头像或者相机可以更改头像-->
+	            <div class="avatar">    
+	                <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
+	                <button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button>
+	            </div>
+
+	            <div class="infor">
+	            	<form method="post" action="" style="margin:30px 0 0 0;">
+						<div>
+							<div class="ui-grid-a">
+								<div class="ui-block-a">
+									<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
+									<label for="username" style="margin:20px 0 0 30px;">用户名</label>
+								</div>
+								<div class="ui-block-b">
+									<input type="text" name="username" id="username" >
+								</div>
+							</div>	
+							<!--
+							<img src="images/mine-shezhi-sex.png">
+							<fieldset>
+								<label for="sex" style="margin:-20px 0 0 30px;">性别</label>
+								<select name="sex" id="sex">
+									<option value="boy">男</option>
+									<option value="girl">女</option>
+								</select>
+							</fieldset>
+							<br/>
+
+							<img src="images/mine-shezhi-birth.png">
+							<label for="bday" style="margin:-20px 0 0 30px;">生日</label>
+							<input type="date" name="bday" id="bday">
+							<br/>
+
+							<img src="images/mine-shezhi-univer.png">
+							<label for="univer" style="margin:-20px 0 0 30px;">大学</label>
+							<input type="text" name="univer" id="univer">
+							<br/>
+
+							<img src="images/mine-shezhi-gq.png">
+							<label for="gq" style="margin:-20px 0 0 30px;">个性签名</label>
+							<input type="text" name="gq" id="gq">
+							<br/>
+
+							<input type="submit" data-inline="true" value="提交"
+							class="submit" style="background-color:#6fd7ca;" >
+						-->
+						</div>
+					</form>
+	            </div> 
+
+            </div>
+		</div>
+
+	</div>
+
+	<script>
+        var as = new ActionSheet({
+            buttons: {
+                '从相册选择图片': function(e){
+                    
+                    //if(!confirm('确定吗？')) return;
+
+                    this.hide();
+                },
+                '拍照': 'http://www.baidu.com',
+            }
+        });
+
+        document.getElementById('open').addEventListener('click', function(){
+            as.show();
+        });
+    </script>
+</body>
+</html>
