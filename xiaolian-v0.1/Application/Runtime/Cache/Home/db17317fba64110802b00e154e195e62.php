@@ -30,7 +30,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian/xiaolian-v0.1/index.php/Home/indextask/task.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolian/xiaolian-v0.1/index.php/Home/indextask/task.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/task/task.html'">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">匹配任务</p>
                     </a>
@@ -42,7 +42,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html'">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">足迹</p>
                     </a>

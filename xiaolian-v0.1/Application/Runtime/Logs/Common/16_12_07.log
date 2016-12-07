@@ -438,3 +438,21 @@ INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
 ERR: 无法加载模块:Task
 >>>>>>> 66561fad01489df0109c06820afd2c0e65b2f3e3
 
+[ 2016-12-07T15:52:42+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-07T15:52:47+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-07T15:52:52+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:Public
+
