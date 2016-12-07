@@ -65,11 +65,11 @@
     	<div class="col-md-10 col-md-offset-2 ">
     	  <ol class="breadcrumb">
     	    <li><a href="#">首页</a></li>
-    	    <li><a href="#">新闻管理</a></li>
-    	    <li class="active">新闻管理列表</li>
+    	    <li><a href="#">动态管理</a></li>
+    	    <li class="active">动态管理列表</li>
   	    </ol>
     	  <div class="table-responsive ">
-    	    <h3>新闻管理列表 <small>News List</small></h3>
+    	    <h3>动态管理列表 <small>Dynamic List</small></h3>
     	    <table width="100%" border="0" cellspacing="0" cellpadding="0"  class="table  table-striped table-hover ">
     	      <tr>
     	        <th width="5%"><input type="checkbox" name="checkbox10" id="checkbox10"></th>
@@ -77,14 +77,12 @@
     	        <th width="20%">添加时间</th>
     	        <th width="21%">操作</th>
   	        </tr>
-    	      <volist name="news" id="d" >
+    	      <volist name="dynamic" id="d" >
               <tr>
               <td><input type="checkbox" name="checkbox" id="checkbox"><label for="checkbox"></label></td>
-              <td>{$d.title}</td>
-              <td>{$d.author}</td>
-              <td>{$d.posttime}</td>
-              <td>{$d.scantime}</td>
-              <td><a href="__MODULE__/News/news_edit/id/{$d.id}">修改</a><a href="#"></a> <a href="__MODULE__/News/del/id/{$d.id}">删除</a></td>
+              <td>{$d.username}</td>
+              <td>{$d.addtime}</td>
+              <td><a href="__MODULE__/dynamic/dynamic_edit/id/{$d.id}">修改</a><a href="#"></a> <a href="__MODULE__/dynamic/del/id/{$d.id}">删除</a></td>
             </tr>
             </volist>
   	      </table>
