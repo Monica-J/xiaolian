@@ -26,6 +26,7 @@
             <div data-role="navbar">
                 <ul>
                     <li>
+<<<<<<< HEAD
                         <a href="haoyou.html"><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-haoyou.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">好友 21</p></a>
                     </li>
                     <li>
@@ -36,6 +37,18 @@
                     </li>
                     <li>
                         <a href="tixing.html"><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 3</p></a>
+=======
+                        <a href="haoyou.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-haoyou.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">好友 6</p></a>
+                    </li>
+                    <li>
+                        <a href="shoucang.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shoucang.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">收藏 3</p></a>
+                    </li>
+                    <li>
+                        <a href="chengjiu.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-chengjiu.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">成就 0</p></a>
+                    </li>
+                    <li>
+                        <a href="tixing.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 4</p></a>
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                     </li>
                 </ul>
             </div>
@@ -70,12 +83,18 @@
                             <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
                         </div>
                         <br/>
+<<<<<<< HEAD
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+=======
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <a href=""><p style="float:right; margin:1px 0 0 0; color:gray; font-size:6px;">删除</p></a>
                     </div>
                     <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
@@ -89,12 +108,18 @@
                             <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
                         </div>
                         <br/>
+<<<<<<< HEAD
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+=======
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <a href=""><p style="float:right; margin:1px 0 0 0; font-size:6px; color:gray;">删除</p></a>
                     </div>
                     <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
@@ -108,12 +133,18 @@
                             <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
                         </div>
                         <br/>
+<<<<<<< HEAD
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+=======
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <a href=""><p style="float:right; margin:1px 0 0 0; color:gray; font-size:6px;">删除</p></a>
                     </div>
 
@@ -127,6 +158,7 @@
             <div data-role="navbar">
               <ul>
                 <li>
+<<<<<<< HEAD
                     <a href="show.html" style="background-color:#6fd7ca;">
                     <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
@@ -137,27 +169,52 @@
                     <a href="task.html"  style="background-color:#6fd7ca;">
                     <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/index/index.html" style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">首页</p>
+                    </a>
+                </li>
+                <li>                
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">匹配任务</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="kankan.html"  style="background-color:#6fd7ca;">
                     <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">看看</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="foot.html"  style="background-color:#6fd7ca;">
                     <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">足迹</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="mine.html"  style="background-color:#6fd7ca;">
                     <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">我的</p>
                     </a>
                 </li>
