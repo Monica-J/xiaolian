@@ -16,14 +16,13 @@
 </style>
   </head>
 
-<body>
+  <body>
 	<div data-role="page">
 		<div data-role="header" style="background-color:#6fd7ca;color:#fff;">
 			<a href="__MODULE__/index/index.html" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
 			<h1 style="font-weight:200;">李真心自由的资料</h1>
-
 		</div>
-
+		<!--顶部信息-->
 		<div data-role="content" style="background:url(__PUBLIC__/front/images/user-data-bg.png);">
 			<div class="panel-1">
 				<img src="__PUBLIC__/front/images/mine-user.png">
@@ -31,21 +30,19 @@
 				<p style="color:#8E8E8E;font-size:12px;margin-top:5px;">没有谁是一座孤岛，在大海里独居</p>
 			</div>
 		</div>
-        <div data-role="content" style="margin-top: -18px;">
+		<!--具体信息-->
+        <div data-role="content">
         	<div class="panel-2">
-				<ul>
-					<li><img src="__PUBLIC__/front/images/user-data-sex.png">性别</li>
-					<li><img src="__PUBLIC__/front/images/user-data-birthday.png">生日</li>
-					<li><img src="__PUBLIC__/front/images/user-data-school.png">大学</li>
+				<ul style="margin-left:40px; margin-top:10px;">
+					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-sex.png);"><p>性别</p></li>
+					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-birthday.png);"><p>生日</p></li>
+					<li style="list-style-image:url(__PUBLIC__/front/images/user-data-school.png);"><p>大学</p></li>
 				</ul>
 			</div>
-		</div>        	
-		<div data-role="footer" data-position="fixed">
-			
 		</div>
 	</div>
 
-</body>
+  </body>
 
 
 </html>
