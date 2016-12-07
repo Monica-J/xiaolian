@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+[ 2016-12-07T08:11:38+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+ERR: 无法加载模块:Public
+=======
 [ 2016-12-07T08:29:57+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaolian-v0.1/index.php/kanknaphp
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
@@ -9,6 +16,31 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
 ERR: 无法加载模块:Kankan
+>>>>>>> e4843fdc5d68b316af34742ad1f148e4d6d742d5
+
+[ 2016-12-07T11:17:46+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-07T11:23:32+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/index.php/mine/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-07T11:23:42+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/index.php/mine/dongtai.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-07T11:23:44+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 无法加载模块:Public
 
 <<<<<<< HEAD
 [ 2016-12-07T09:54:44+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/longline.png

@@ -1,12 +1,29 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
   <head>
+<<<<<<< HEAD
+	<meta charset="utf-8" />
+    <title>具体活动页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+=======
     <meta charset="utf-8" />
     <title>具体活动页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+<<<<<<< HEAD
+=======
+=======
+    <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+>>>>>>> 66561fad01489df0109c06820afd2c0e65b2f3e3
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
+>>>>>>> ff74f232072e7beb74e4df0e71c14719ad2d73d3
 
 <style type="text/css">
 	*{margin:0;padding:0;list-style:none;border:0;}
@@ -14,6 +31,24 @@
 </style>
   </head>
 
+<<<<<<< HEAD
+<body>
+	<div data-role="page">
+		<div data-role="header">
+<<<<<<< HEAD:xiaolian-v0.1/Application/Home/View/index/activity-specific.html
+			<a href="index.html" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+=======
+			<a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" data-role="button" data-icon="arrow-l" data-iconpos="notext"></a>
+>>>>>>> 81c3ae0a68e941c4ac1ced05089dbd71632b69ab:xiaolian-v0.1/Application/Home/View/index/activity-specific.html
+			<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity.png" style="width:100%">
+		</div>
+
+		<div data-role="content">
+			<div class="panel-1">
+                <p style="color:#8E8E8E;">“互联青春，绽放未来”——软件学院2016年开学典礼暨迎新晚会在河北师范大学软件学院楼下隆重举办。软件学院管委会主任、博士生导师张子龙，党总支副书记、副院长王喜，副院长、博士生导师赵书良，副院长张玉华，副院长单博，部分专业教师，各年级辅导员及2016级全体新生和部分在校生近千人参加了开学典礼暨迎新晚会。</p>
+			</div>
+			<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
+=======
   <body>
 	<div data-role="page">
 		<div data-role="header">
@@ -29,18 +64,55 @@
 			</div>
 			<img src="/xiaolian/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
 			<!--具体信息-->
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
 			<div class="panel-2">
 				<p style="color:#6fd7ca;">活动时间</p>
 				<p style="color:#8E8E8E;text-indent:2em;">2016年9月23日</p>
 				<p style="color:#6fd7ca;">活动地点</p>
 				<p style="color:#8E8E8E;text-indent:2em;">河北省石家庄市河北师范大学</p>
 			</div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
+=======
+<<<<<<< HEAD
+>>>>>>> ff74f232072e7beb74e4df0e71c14719ad2d73d3
 			<img src="/xiaolian/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
 			<!--活动规则-->
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
 			<div class="panel-3">
 				<p style="color:#6fd7ca;">参与规则</p>
 				<p style="color:#8E8E8E;text-indent:2em;">在匹配任务页面完成相应任务即可参与抽奖。一等奖为此活动入场券。</p>
 			</div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
+			<div class="ui-grid-a" style="margin-top:10px;">
+				<div class="ui-block-a" style="color:#8E8E8E;font-size:12px;font-weight:200;"> 
+					<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity-specific-like.png" style="width:30px;height:24px;">
+						有73人喜欢此活动
+				</div>
+				<div class="ui-block-b"> <!--调整一下!!将元素固定在最右边-->
+					<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity-specific-like-user.png" style="width:30px;height:30px;">
+					<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity-specific-like-user.png" style="width:30px;height:30px;">
+					<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity-specific-like-user.png" style="width:30px;height:30px;">
+					<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/index-activity-specific-like-user.png" style="width:30px;height:30px;">
+				</div>
+			</div>
+			<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			
+		</div>
+	</div>
+
+</body>
+=======
+<<<<<<< HEAD
+>>>>>>> ff74f232072e7beb74e4df0e71c14719ad2d73d3
 			<img src="/xiaolian/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:5px;margin-left:-20px;">
 			<!--其他相关-->
 			<div class="ui-grid-a" style="margin-top:10px;">
@@ -61,6 +133,7 @@
 	</div>
 
   </body>
+>>>>>>> 3f39d35c0809ca7eb770424ae83ec92fa7119490
 
 
 </html>
