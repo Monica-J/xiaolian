@@ -24,7 +24,7 @@
             <div data-role="navbar">
               <ul>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" style="background-color:#6fd7ca;">
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">首页</p>
                     </a>
@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">看看</p>
                     </a>
