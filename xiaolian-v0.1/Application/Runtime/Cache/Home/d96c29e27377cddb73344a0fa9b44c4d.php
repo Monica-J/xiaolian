@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
  <head>
 	<title>注册界面</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/dl-style.css">   
-    <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
-    <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
-    <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/dl-style.css">   
+    <link rel="stylesheet" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
     <<div data-role="page">
@@ -28,17 +28,17 @@
             </div>
                
             <div class="line1">
-                <img src="__PUBLIC__/front/images/zc-phone.png">
+                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/zc-phone.png">
                 <input type="text"  id="zhanghao" class="zhanghao" value="请输入您的手机号" onfocus="if(value=='请输入您的手机号') {value=''}" onblur="if (value=='') {value='请输入您的手机号'}" data-role="none">
             </div>
 
             <div class="line2">
-                <img src="__PUBLIC__/front/images/dl-zhanghao.png">
+                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
                 <input type="text"  id="mima" class="mima" value="请输入您的用户名" onfocus="if(value=='请输入您的用户名') {value=''}" onblur="if (value=='') {value='请输入您的用户名'}" data-role="none">
             </div>
 
             <div class="line3">
-                <img src="__PUBLIC__/front/images/dl-mima.png">
+                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-mima.png">
                 <input type="text"  id="mima" class="mima" value="请输入您的密码" onfocus="if(value=='请输入您的密码') {value=''}" onblur="if (value=='') {value='请输入您的密码'}" data-role="none">
             </div>
             
