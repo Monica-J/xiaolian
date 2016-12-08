@@ -60,32 +60,57 @@
             <div data-role="navbar">
               <ul>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/index/index.html" style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html'"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
+>>>>>>> e103df5cef467f58a882119b5f0e872e591e5115
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">首页</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+>>>>>>> e103df5cef467f58a882119b5f0e872e591e5115
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">匹配任务</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+>>>>>>> e103df5cef467f58a882119b5f0e872e591e5115
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">看看</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+>>>>>>> e103df5cef467f58a882119b5f0e872e591e5115
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">足迹</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+>>>>>>> e103df5cef467f58a882119b5f0e872e591e5115
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">我的</p>
                     </a>
                 </li>
