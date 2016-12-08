@@ -28,8 +28,9 @@
 			<div style="margin:0px 0 0 0;">
 				<h5>看看其他人</h5>
                 <br/>
-				<div>
-                    <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:-10px 0 0 0;">
+				
+                <div>
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/hydt.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:-10px 0 0 0;"></a>
                     <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                     <p style="float:right; margin:-13px 0px 0 240px; font-size:8px;">2016.11.22 15:06</p>
                     <div class="content">
@@ -43,8 +44,8 @@
                     </div>
                     <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px; ">
 
-                    <div>
-                    <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                <div>
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/hydt.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;"></a>
                     <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                     <p style="float:right; margin:-13px 0px 0 240px; font-size:8px;">2016.11.22 15:06</p>
                     <div class="content">
@@ -55,11 +56,11 @@
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
-                    </div>
+                </div>
                     <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
 
-                    <div>
-                    <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                <div>
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/hydt.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;"></a>
                     <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                     <p style="float:right; margin:-13px 0px 0 240px; font-size:8px;">2016.11.22 15:06</p>
                     <div class="content">
@@ -70,11 +71,11 @@
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
-                    </div>
+                </div>
                     <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
 
-                    <div>
-                    <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                <div>
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/hydt.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan-user.png" style="margin:10px 0 0 0;"></a>
                     <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                     <p style="float:right; margin:-13px 0px 0 240px; font-size:8px;">2016.11.22 15:06</p>
                     <div class="content">
@@ -85,7 +86,7 @@
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-dianzan.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-pinglun.png"></a>
                         &nbsp;<a href=""><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-zhuanfa.png"></a>
-                    </div>
+                </div>
 
 			</div>
 		</div>
