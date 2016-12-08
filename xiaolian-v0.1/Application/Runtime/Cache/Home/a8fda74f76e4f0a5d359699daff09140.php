@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
+    <style>
+        button{
+            margin: 100px auto;
+            padding: 2em;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+            background: #FFF;
+        }
+    </style>
 </head>
 
 <body> 
@@ -56,7 +66,7 @@
                     <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-luser.png" style="margin:-15px 0 0 0;">
                     <form style="margin:-55px 0 0 70px;">
                         <label for="text"></label>
-                        <a href="#page2"><input type="text" name="text" id="text" placeholder="说说你想说的吧！" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-talkbg.png);"></a>
+                        <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/dongtai.html" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/dongtai.html'"><input type="text" name="text" id="text" placeholder="说说你想说的吧！" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-talkbg.png);"></a>
                     </form>
                 </div>
                 <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
@@ -154,5 +164,21 @@
 
         </div>
     </div>
+
+    <script>
+        var as = new ActionSheet({
+            buttons: {
+                '退出登录': function(e){
+                    
+                    //if(!confirm('确定吗？')) return;
+
+                    this.hide();
+                }
+            }
+        });
+
+        document.getElementById('open').addEventListener('click', function(){
+            as.show();
+        });
 </body> 
 </html>

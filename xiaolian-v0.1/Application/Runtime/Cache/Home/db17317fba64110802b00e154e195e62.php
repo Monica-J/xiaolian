@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html'">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html"  style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">看看</p>
                     </a>

@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <script src="js/jquery-2.2.2.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/action-sheet.js"></script>
+    <style>
+        button{
+            margin: 100px auto;
+            padding: 2em;
+            border: 1px solid #CCC;
+            border-radius: 5px;
+            background: #FFF;
+        }
+    </style>
 </head>
 
 <body> 
@@ -151,5 +161,22 @@
 
         </div>
     </div>
+
+    <script>
+        var as = new ActionSheet({
+            buttons: {
+                '退出登录': function(e){
+                    
+                    //if(!confirm('确定吗？')) return;
+
+                    this.hide();
+                }
+            }
+        });
+
+        document.getElementById('open').addEventListener('click', function(){
+            as.show();
+        });
+    </script>
 </body> 
 </html>
