@@ -2,21 +2,19 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="format-detection" content="telephone=no, email=no" />
-	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
-	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/iscroll-zoom.js"></script>
-	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/hammer.js"></script>
-	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.photoClip.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!--<link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />-->
+	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/iscroll-zoom.js"></script>
+	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/hammer.js"></script>
+	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.photoClip.js"></script>
 	<title>修改头像</title>
 </head>
 <body ontouchstart="">
 	<div data-role="page">
 		<div data-role="header" style="background-color:#6fd7ca; color:white;">
-			<a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/shezhi.html" data-icon="arrow-l" data-iconpos="notext"></a>
 			<h1 style="font-weight:200;">修改头像</h1>
 		</div>
 		<div data-role="content">
@@ -28,6 +26,7 @@
 			</article>
 		</div>
 	</div>
+	
 	<script>
 		//document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 		$("#clipArea").photoClip({

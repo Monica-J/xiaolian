@@ -7,9 +7,9 @@
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
     <style>
         body{
             margin: 0;
@@ -29,7 +29,7 @@
 	<div data-role="page">
 		
 		<div data-role="header" style="background-color:#6fd7ca; color:white;">
-			<a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
 			<h1 style="font-weight:200;">完善个人资料</h1>
 		</div>
 
@@ -37,8 +37,8 @@
 			<div class="user" style="height:200px;">
                 <!--实现点击头像或者相机可以更改头像-->
 	            <div class="avatar">    
-	                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
-	                <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/avatar.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/avatar.html'"><button type="button" id="open" style="background:url(/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
+	                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear:both; display: block; margin:auto;">
+	                <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/avatar.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/mine/avatar.html'"><button type="button" id="open" style="background:url(/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
 	            </div>
 
 	           <div class="infor">
@@ -47,7 +47,7 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
+									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
 									<label for="username" style="margin:20px 0px 0 35px;">用户名</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
@@ -57,7 +57,7 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png" style="float:left; margin:14px 0 0 0;">
+									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png" style="float:left; margin:14px 0 0 0;">
 									<label for="sex" style="margin:20px 0px 0 35px;">性别</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
@@ -72,7 +72,7 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png" style="float:left; margin:14px 0 0 0;">
+									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png" style="float:left; margin:14px 0 0 0;">
 									<label for="birth" style="margin:20px 0px 0 35px;">生日</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
@@ -82,7 +82,7 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-univer.png" style="float:left; margin:14px 0 0 0;">
+									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-univer.png" style="float:left; margin:14px 0 0 0;">
 									<label for="univer" style="margin:20px 0px 0 35px;">大学</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
@@ -92,7 +92,7 @@
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
-									<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-gq.png" style="float:left; margin:14px 0 0 0;">
+									<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-gq.png" style="float:left; margin:14px 0 0 0;">
 									<label for="gq" style="margin:20px 0px 0 35px;">个性签名</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">

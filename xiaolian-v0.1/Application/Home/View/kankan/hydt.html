@@ -2,80 +2,35 @@
 <html> 
 <head> 
     <meta charset="utf-8" />
-    <title>我的</title>
+    <title>我叫李自由</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
     <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="__PUBLIC__/front/js/action-sheet.js"></script>
-    <style>
-        button{
-            margin: 100px auto;
-            padding: 2em;
-            border: 1px solid #CCC;
-            border-radius: 5px;
-            background: #FFF;
-        }
-    </style>
 </head>
 
 <body> 
     <div data-role="page"> 
         <div data-role="header" data-position="fixed">              
-        
+            <a href="__MODULE__/mine/haoyou.html" data-icon="arrow-l" data-iconpos="notext"></a>
             <!--用户部分信息-->
             <div class="user" style="height:200px; background:url(__PUBLIC__/front/images/mine-bg.png);" >
-                <button type="button" id="open" style="background:url(images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button>
-                <a href="__MODULE__/mine/shezhi.html"><img src="__PUBLIC__/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
                 <br/>
                 <br/>
-                <a href="#"><img src="__PUBLIC__/front/images/mine-user.png" style="clear: both; display: block; margin:auto;"></a>
-                <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">我叫李自由</p>
-                <p style="font-size:10px; color:#7d8180; text-align: center;">没有谁是一座孤岛，在大海里独居。</p>
-            </div>
-
-            <!--导航条-->
-            <div data-role="navbar">
-                <ul>
-                    <li>
-                        <a href="haoyou.html"><img src="__PUBLIC__/front/images/mine-haoyou.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">好友 6</p></a>
-                    </li>
-                    <li>
-                        <a href="shoucang.html"><img src="__PUBLIC__/front/images/mine-shoucang.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">收藏 3</p></a>
-                    </li>
-                    <li>
-                        <a href="chengjiu.html"><img src="__PUBLIC__/front/images/mine-chengjiu.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">成就 0</p></a>
-                    </li>
-                    <li>
-                        <a href="tixing.html"><img src="__PUBLIC__/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 4</p></a>
-                    </li>
-                </ul>
+                <img src="__PUBLIC__/front/images/hydt-user.png" style="clear: both; display: block; margin:auto;">
+                <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">liberté</p>
+                <p style="font-size:10px; color:#7d8180; text-align: center;">孤城</p>
             </div>
         
         </div>
 
 
         <div data-role="content"> 
-            
-            <!--我的动态-->
-            <div style="margin:0px 0 0 0;">
-                <h5>我的动态</h5>
-                <!--发布动态-->
-                <br/>
-                <div>
-                    <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:-15px 0 0 0;">
-                    <form style="margin:-55px 0 0 70px;">
-                        <label for="text"></label>
-                        <a href="__MODULE__/mine/dongtai.html" onclick="location.href='__MODULE__/mine/dongtai.html'"><input type="text" name="text" id="text" placeholder="说说你想说的吧！" style="background:url(__PUBLIC__/front/images/mine-talkbg.png);"></a>
-                    </form>
-                </div>
-                <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
-                <!--历史动态-->
-                <div>
-                    
+            <!--历史动态-->
+                <div style="margin:-10px 0 0 0;">                    
                     <div>
-                        <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:10px 0 0 0;">
-                        <p style="margin:-38px 0 0 60px; font-size:10px;">我叫李自由</p>
+                        <img src="__PUBLIC__/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                         <p style="float:right; margin:-13px 0 0 0; font-size:8px;">2016.11.22 15:06</p>
                         <div class="content">
                             <p style="margin:24px 0 0 20px;">我在河北师范大学！</p>
@@ -90,8 +45,8 @@
                     <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
 
                     <div>
-                        <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:10px 0 0 0;">
-                        <p style="margin:-38px 0 0 60px; font-size:10px;">我叫李自由</p>
+                        <img src="__PUBLIC__/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                         <p style="float:right; margin:-13px 0 0 0; font-size:8px;">2016.11.22 15:06</p>
                         <div class="content">
                             <p style="margin:24px 0 0 20px;">我在河北师范大学！</p>
@@ -106,8 +61,8 @@
                     <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
 
                     <div>
-                        <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:10px 0 0 0;">
-                        <p style="margin:-38px 0 0 60px; font-size:10px;">我叫李自由</p>
+                        <img src="__PUBLIC__/front/images/kankan-user.png" style="margin:10px 0 0 0;">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">liberté</p>
                         <p style="float:right; margin:-13px 0 0 0; font-size:8px;">2016.11.22 15:06</p>
                         <div class="content">
                             <p style="margin:24px 0 0 20px;">我在河北师范大学！</p>
@@ -129,14 +84,14 @@
             
             <div data-role="navbar">
               <ul>
-                <li>
+                <li >
                     <a href="__MODULE__/index/index.html" style="background-color:#6fd7ca;">
                         <img src="__PUBLIC__/front/images/shouye.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">首页</p>
                     </a>
                 </li>
-                <li>                
-                    <a href="__MODULE__/task/task.html"  style="background-color:#6fd7ca;" onclick="location.href='__MODULE__/task/task.html'">
+                <li>
+                    <a href="__MODULE__/task/task.html"  style="background-color:#6fd7ca;">
                         <img src="__PUBLIC__/front/images/renwu.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">匹配任务</p>
                     </a>
@@ -148,7 +103,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="__MODULE__/foot/foot.html"  style="background-color:#6fd7ca;" onclick="location.href='__MODULE__/foot/foot.html'">
+                    <a href="__MODULE__/foot/foot.html"  style="background-color:#6fd7ca;">
                         <img src="__PUBLIC__/front/images/zuji.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">足迹</p>
                     </a>
@@ -164,21 +119,5 @@
 
         </div>
     </div>
-
-    <script>
-        var as = new ActionSheet({
-            buttons: {
-                '退出登录': function(e){
-                    
-                    //if(!confirm('确定吗？')) return;
-
-                    this.hide();
-                }
-            }
-        });
-
-        document.getElementById('open').addEventListener('click', function(){
-            as.show();
-        });
 </body> 
 </html>
