@@ -6,11 +6,19 @@
       <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
       <title>足迹</title>
       <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+<<<<<<< HEAD
       <link rel="stylesheet" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
       <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
     
       <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
       <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+=======
+      <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+      <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    
+      <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+      <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
       <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=00128980e7295d01238e56ed1e839e92"></script>
       <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
   </head>
@@ -60,32 +68,57 @@
             <div data-role="navbar">
               <ul>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/index/index.html'"  style="background-color:#6fd7ca;">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html'"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">首页</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/task/task.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/task/task.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">匹配任务</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">看看</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/foot/foot.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">足迹</p>
                     </a>
                 </li>
                 <li>
+<<<<<<< HEAD
                     <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+=======
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" style="background-color:#6fd7ca;">
+                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+>>>>>>> aaa9cb512a8ee20eb2f9d804e6bbf75373378db5
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">我的</p>
                     </a>
                 </li>
