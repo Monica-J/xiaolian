@@ -1,0 +1,6 @@
+[ 2016-12-08T14:58:54+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaolian-v0.1/index.php/denglu/enter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Denglu
+
