@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php if (!defined('THINK_PATH')) exit();?><!-- <!DOCTYPE html>
 <html>
 <head>
@@ -87,6 +88,9 @@
     </script>
 </body>
 </html> -->
+=======
+<?php if (!defined('THINK_PATH')) exit();?>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,10 +99,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+<<<<<<< HEAD
     <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
      <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
+=======
+    <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
+     <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
      <style>
       body{
             margin: 0;
@@ -113,6 +124,7 @@
             background: #FFF;
 
         }
+<<<<<<< HEAD
  /*#open{
         	background:url(images/mine-shezhi-cam.png); 
         	width:30px;  
@@ -121,13 +133,20 @@
         	border:none;
 
         }*/
+=======
+ 
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
      
         </style>  
 </head>
 <body>
 	<div data-role="page">
         <div data-role="header" style="background-color:#6fd7ca; color:white;">
+<<<<<<< HEAD
             <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
+=======
+            <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
             <h1 style="font-weight:200">说说你想说的吧</h1>  
             <a href="">发表</a>          
         </div>
@@ -144,7 +163,11 @@
  			<!--实现点击头像或者相机可以更改头像-->
  			<div style="width:90px">
  				<form method="post" action="demoform.asp" id="open">
+<<<<<<< HEAD
                 	<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
+=======
+                	<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
              
                 </form>
  			</div>

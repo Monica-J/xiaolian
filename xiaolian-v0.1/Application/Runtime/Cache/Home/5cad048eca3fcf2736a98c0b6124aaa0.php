@@ -3,17 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <!--<link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />-->
-	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
-    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/iscroll-zoom.js"></script>
-	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/hammer.js"></script>
-	<script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.photoClip.js"></script>
+    <!--<link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />-->
+	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/iscroll-zoom.js"></script>
+	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/hammer.js"></script>
+	<script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.photoClip.js"></script>
 	<title>修改头像</title>
 </head>
 <body ontouchstart="">
 	<div data-role="page">
+<<<<<<< HEAD
 		
+=======
+		<div data-role="header" style="background-color:#6fd7ca; color:white;">
+			<a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<h1 style="font-weight:200;">修改头像</h1>
+		</div>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
 		<div data-role="content">
 			<article class="zzsc-container">
 				<div id="clipArea" style="margin: 30px;	height: 200px;"></div>
