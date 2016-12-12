@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
  <head>
-	 <title>注册界面</title>
+	<title>注册界面</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/dl-style.css">   
