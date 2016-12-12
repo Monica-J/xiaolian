@@ -168,7 +168,7 @@
     <script>
         var as = new ActionSheet({
             buttons: {
-                '退出登录': 'http://localhost/xiaolianV0.1/xiaolian-v0.1/index.php/home/denglu/enter'
+                '退出登录': 
                     
                     
                 }
