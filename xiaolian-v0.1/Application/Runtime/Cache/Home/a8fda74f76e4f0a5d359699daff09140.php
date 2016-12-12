@@ -26,7 +26,7 @@
             <!--用户部分信息-->
             <div class="user" style="height:200px; background:url(/xiaolian/xiaolian-v0.1/Public/front/images/mine-bg.png);" >
                 <button type="button" id="open" style="background:url(images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button>
-                <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/shezhi.html"><img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
+                <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/shezhi.html" onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/mine/shezhi.html'"><img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
                 <br/>
                 <br/>
                 <a href="#"><img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear: both; display: block; margin:auto;"></a>
