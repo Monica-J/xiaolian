@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  style="background-color:#6fd7ca;">
+                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">我的</p>
                     </a>
