@@ -1,10 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?> <!DOCTYPE html> 
 <html>
- <head>
+  <head>
 	<title>注册界面</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/dl-style.css">   
+    <link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/dl-style.css">   
 </head>
 <body>
     <div data-role="page">
@@ -24,27 +24,27 @@
             </div>
             </div>
              <div class="line1">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
                 <input type="text"  id="mima" class="mima" value="请输入您的用户名" onfocus="if(value=='请输入您的用户名') {value=''}" onblur="if (value=='') {value='请输入您的用户名'}" data-role="none">
             </div>
 
             <div class="line2">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png">
                 <input type="text"  id="zhanghao" class="zhanghao" value="性别" onfocus="if(value=='性别') {value=''}" onblur="if (value=='') {value='性别'}" data-role="none">
             </div>
 
             <div class="line3">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png">
                 <input type="text"  id="zhanghao" class="zhanghao" value="出生日期" onfocus="if(value=='出生日期') {value=''}" onblur="if (value=='') {value='出生日期'}" data-role="none">
             </div>   
 
             <div class="line4">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/zc-phone.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/zc-phone.png">
                 <input type="text"  id="zhanghao" class="zhanghao" value="请输入您的手机号" onfocus="if(value=='请输入您的手机号') {value=''}" onblur="if (value=='') {value='请输入您的手机号'}" data-role="none">
             </div>          
 
             <div class="line5">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-mima.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/dl-mima.png">
                 <input type="text"  id="mima" class="mima" value="请输入您的密码" onfocus="if(value=='请输入您的密码') {value=''}" onblur="if (value=='') {value='请输入您的密码'}" data-role="none">
             </div>
             

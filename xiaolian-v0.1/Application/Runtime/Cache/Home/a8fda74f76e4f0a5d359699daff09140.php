@@ -19,10 +19,9 @@
                 <button type="button" id="open" style="background:url(images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button>
                 <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html'"><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
 
-                <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/denglu/enter.html"><button type="button" id="open" style="background:url(/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button></a>
-                <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html"><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
-
-                <br/>
+                <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/denglu/enter.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/denglu/enter.html'"><button type="button" id="open" style="background:url(/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button></a>
+            
+                
                 <br/>
                 <a href="#"><img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear: both; display: block; margin:auto;"></a>
                 <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">我叫李自由</p>
