@@ -1,12 +1,19 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html> 
-<html> 
+<?php if (!defined('THINK_PATH')) exit();?><html> 
 <head> 
     <meta charset="utf-8" />
     <title>匹配任务</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <!--弹出框插件css-->
+    <link href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/normalize.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/animate.min.css">
+    <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.gDialog.css">
+
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>    
+    <!--弹出框插件js-->
+    <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.gDialog.js"></script>
+    <!--高德地图-->
     <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=1157f74e5a00352a7aaccfe6a879557c"></script>
     <style type="text/css">
         body {
@@ -32,74 +39,70 @@
             border-radius: 3px;
             outline: none;
         }
-
+        .btn {
+            background-color:#ED5565; 
+            color:#fff; 
+            padding:20px; 
+            margin:10px 30px; 
+            border-radius:5px; 
+            border-bottom:3px solid #DA4453;
+        }
     </style>
-    
 </head> 
 
-<body> 
-    <div data-role="page"> 
-
+<body>  
+    <div data-role="page">
        <div data-role="content">
-
-            <div id="container" style="width:1500px; height:1500px;"></div>
+            <div id="container" style="width:1500px; height:1500px;">
+            </div>
             <div id="tip1">
             </div>
-            <div id="tip">
-                <input type="text" id="keyword" name="keyword" value="请输入关键字：(选定后搜索)" onfocus='this.value=""'/>
-            </div>            
+            <div id="tip" style="float:right;">
+                <input type="text" id="keyword" name="keyword" value="请输入关键字：(选定后搜索)" onfocus='this.value=""'/ style="">
+                <button type="button" id="open" class="btn start" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/task-start.png); width: 0px; float: right; margin: -35px 0 0 300px; border: none;"></button>
+            </div>
        </div>
 
         <div data-role="footer" data-position="fixed"> 
             <div data-role="navbar">
               <ul>
                 <li>
-<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/index/index.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
-=======
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/index/index.html'" style="background-color:#6fd7ca;">
-                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/shouye.png" style="width:24px; height:24px;">
->>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">首页</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/indextask/task.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/task/task.html'">
-                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/indextask/task.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/task/task.html'">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/renwu.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">匹配任务</p>
                     </a>
                 </li>
                 <li>
-<<<<<<< HEAD
                     <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
                         <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
-=======
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/kankan/kankan.html'" style="background-color:#6fd7ca;">
-                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/kankan.png" style="width:24px; height:24px;">
->>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">看看</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/foot/foot.html'">
-                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html"  style="background-color:#6fd7ca;" onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/foot/foot.html'">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/zuji.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">足迹</p>
                     </a>
                 </li>
                 <li>
-                    <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" style="background-color:#6fd7ca;">
-                        <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
+                    <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  style="background-color:#6fd7ca;">
+                        <img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/wode.png" style="width:24px; height:24px;">
                         <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;">我的</p>
                     </a>
                 </li>
               </ul>
             </div>
         </div>
-    </div>
-
+    </div>       
 
     <script type="text/javascript">
+        //高德地图
         var map, geolocation;
         //加载地图，调用浏览器定位服务
         map = new AMap.Map('container', {
@@ -133,16 +136,16 @@
             document.getElementById('tip').innerHTML = '定位失败';
         }
         
-
+        //输入提示
         var windowsArr = [];
         var marker = [];
         AMap.plugin(['AMap.Autocomplete','AMap.PlaceSearch'],function(){
-          var autoOptions = {
+            var autoOptions = {
             city: "北京", //城市，默认全国
             input: "keyword"//使用联想输入的input的id
           };
           autocomplete= new AMap.Autocomplete(autoOptions);
-          var placeSearch = new AMap.PlaceSearch({
+            var placeSearch = new AMap.PlaceSearch({
                 city:'北京',
                 map:map
           })
@@ -151,6 +154,17 @@
              placeSearch.search(e.poi.name)
           });
         });
+
+        //弹出框js
+        $('.start').click(function(){
+            $.gDialog.prompt("", "河北师范大学", {
+                title: "请输入您想去的大学",
+                required: true,
+                animateIn : "rollIn",
+                animateOut: "rollOut"
+            });
+        }); 
+
     </script>
     <script type="text/javascript" src="http://webapi.amap.com/demos/js/liteToolbar.js"></script>
 </body> 
