@@ -8,16 +8,29 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <link rel="stylesheet" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
+     <script src="/xiaolian/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
+=======
+<<<<<<< HEAD
     <link rel="stylesheet" href="/xiaolianV0.1/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
      <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
 =======
+>>>>>>> cae4ba465b91c2614177aa528adf8cc11474469c
     <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
      <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
+<<<<<<< HEAD
+=======
 >>>>>>> 605cf8d45551c7c332b7cb95c5813a7eda74bc56
+>>>>>>> 01b57ce9fa315e0ea71222318892f143ea1e8fb8
+>>>>>>> cae4ba465b91c2614177aa528adf8cc11474469c
      <style>
       body{
             margin: 0;
@@ -40,10 +53,18 @@
 	<div data-role="page">
         <div data-role="header" style="background-color:#6fd7ca; color:white;">
 <<<<<<< HEAD
+            <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
+=======
+<<<<<<< HEAD
+            <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
+=======
+<<<<<<< HEAD
             <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
 =======
             <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
 >>>>>>> 605cf8d45551c7c332b7cb95c5813a7eda74bc56
+>>>>>>> 01b57ce9fa315e0ea71222318892f143ea1e8fb8
+>>>>>>> cae4ba465b91c2614177aa528adf8cc11474469c
             <h1 style="font-weight:200">说说你想说的吧</h1>  
             <a href="">发表</a>          
         </div>
@@ -61,10 +82,18 @@
  			<div style="width:90px">
  				<form method="post" action="demoform.asp" id="open">
 <<<<<<< HEAD
+                	<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
+=======
+<<<<<<< HEAD
+                	<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
+=======
+<<<<<<< HEAD
                 	<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
 =======
                 	<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
 >>>>>>> 605cf8d45551c7c332b7cb95c5813a7eda74bc56
+>>>>>>> 01b57ce9fa315e0ea71222318892f143ea1e8fb8
+>>>>>>> cae4ba465b91c2614177aa528adf8cc11474469c
              
                 </form>
  			</div>

@@ -1,13 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?> <!DOCTYPE html>
 <html>
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.3.2.min.css">
-<link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/dl-style.css">
-<link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/theme.css">
+<link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.3.2.min.css">
+<link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/dl-style.css">
+<link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/theme.css">
 <body>
 <div data-role="page" >
     <div data-role="content" class="tip">
