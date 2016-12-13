@@ -13,10 +13,14 @@
 </head>
 <body ontouchstart="">
 	<div data-role="page">
+<<<<<<< HEAD
+		
+=======
 		<div data-role="header" style="background-color:#6fd7ca; color:white;">
 			<a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/shezhi.html" data-icon="arrow-l" data-iconpos="notext"></a>
 			<h1 style="font-weight:200;">修改头像</h1>
 		</div>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
 		<div data-role="content">
 			<article class="zzsc-container">
 				<div id="clipArea" style="margin: 30px;	height: 200px;"></div>
@@ -24,6 +28,8 @@
 				<button id="clipBtn" style="float:right; margin-top:-2px;">截取</button>
 				<div id="view" style="margin:70px 0 0 105px; width: 150px; height: 150px;"></div>
 			</article>
+			<br/>
+			<h3 style="text-align:center;"><button>保存头像</button></h3>
 		</div>
 	</div>
 	

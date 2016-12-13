@@ -2,7 +2,7 @@
 <html> 
 <head> 
     <meta charset="utf-8" />
-    <title>我叫李自由</title>
+    <title>liberté</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
@@ -12,12 +12,20 @@
 <body> 
     <div data-role="page"> 
         <div data-role="header" data-position="fixed">              
+<<<<<<< HEAD
+            <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/kankan.html" data-icon="arrow-l" data-iconpos="notext"></a>
+=======
             <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/haoyou.html" data-icon="arrow-l" data-iconpos="notext"></a>
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
             <!--用户部分信息-->
             <div class="user" style="height:200px; background:url(/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-bg.png);" >
                 <br/>
                 <br/>
+<<<<<<< HEAD
+                <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/kankan/user-data.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/hydt-user.png" style="clear: both; display: block; margin:auto;"></a>
+=======
                 <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/hydt-user.png" style="clear: both; display: block; margin:auto;">
+>>>>>>> c393c96c64d006b0c5d290fdbd232e637f5e94e2
                 <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">liberté</p>
                 <p style="font-size:10px; color:#7d8180; text-align: center;">孤城</p>
             </div>
