@@ -142,6 +142,4 @@ div.flicking_con a.on{background-position:0 -21px}
 #btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:20px!important;height:20px!important;top:50%;margin-top:-20px;display:none;}
 #btn_prev{background:url(../images/index-hover-left.png) left no-repeat;left:0px;}
 #btn_next{background:url(../images/index-hover-right.png) no-repeat right;right:0px;}
-=======
 .tc{text-align:center;}
->>>>>>> e407fdc3bb966825b2693e6a681436b109356de4
