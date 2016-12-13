@@ -84,9 +84,9 @@
                     </div>
 
                 </div>
-            </div>
-
         </div>
+
+      
 
         <div data-role="footer" data-position="fixed"> 
             
