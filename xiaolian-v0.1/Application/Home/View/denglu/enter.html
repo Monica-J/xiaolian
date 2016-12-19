@@ -1,12 +1,9 @@
-<!DOCTYPE html>     
+ <!DOCTYPE html>     
 <html>     
 <head>     
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	 <title>登陆</title>     
+	<title>登陆</title>     
 	<meta name="viewport" content="width=device-width, initial-scale=1">     
-	<link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
-    <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
-    <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>     
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/front/css/dl-style.css">  
 	<script>
 	  function but_click()
@@ -56,20 +53,21 @@
             </div>
             
           	<br/>
-			<form action="#" method="post"> 			
-				<a href="#" data-role="button" data-theme="b" id="login" onclick="but_click();" style="background:#6fd7ca; border:none;">登录</a>
-			</form>
+			<div class="chose">                
+                <a class="login" href="#"data-ajax="false" data-role="none" data-transition="slide">登陆</a>
+            </div>
+
 			<div data-role="fieldcontain">
-            	<fieldset data-role="controlgroup">
+            	
                 	<input type="checkbox" name="blue" id="effect1" class="custom"/> 
                 	<label for="effect1" style="font-size:10px; margin-top:-10px;">我已阅读并同意<a href="#" style="color:#6fd7ca;">《服务条款》</a></label>         
-            	</fieldset>
+     
         	</div>
 		</div>
         
         <div class="footer" data-position="fixed">
 	        <div style="margin-bottom:150px;">
-		        <a href="#" data-ajax="false"  style="float:left; color:#6fd7ca;">无法登录？</a>
+		        
 		        <a href="register.html" data-ajax="false" style="float:right; color:#6fd7ca;">新用户注册</a>
 	        </div>
         </div>

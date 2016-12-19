@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html> 
+<?php if (!defined('THINK_PATH')) exit();?>   <!DOCTYPE html> 
 <html> 
 <head> 
     <meta charset="utf-8" />
@@ -15,10 +15,10 @@
         
             <!--用户部分信息-->
             <div class="user" style="height:200px; background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-bg.png);" >
-                <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/denglu/enter.html"><button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button></a>
+                <button type="button" id="open" style="background:url(/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;"></button></a>
                 <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/shezhi.html"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
                 <br/>
-                <br/>
+    
                 <a href="#"><img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-user.png" style="clear: both; display: block; margin:auto;"></a>
                 <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">我叫李自由</p>
                 <p style="font-size:10px; color:#7d8180; text-align: center;">没有谁是一座孤岛，在大海里独居。</p>
