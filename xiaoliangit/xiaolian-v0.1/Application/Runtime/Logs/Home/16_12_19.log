@@ -1798,3 +1798,25 @@ SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
 SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0440s ]
 ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recommended' in 'where clause'
 
+[ 2016-12-19T16:01:20+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0152s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recommended' in 'where clause'
+
+[ 2016-12-19T16:01:23+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0120s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recommended' in 'where clause'
+
