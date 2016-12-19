@@ -5,9 +5,9 @@
 	<title>登陆</title>     
 	<meta name="viewport" content="width=device-width, initial-scale=1">     
 	
-    <script src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
   
-    <link rel="stylesheet" type="text/css" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/dl-style.css">  
+    <link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/css/dl-style.css">  
 	<script>
 	  // function but_click()
 	// {
@@ -31,7 +31,7 @@
 	// 		}
 	// 	}
 	// alert("登录成功");
-	// location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/index'
+	// location.href='/xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php/Home/index/index'
 	// }	
 	
 	// </script>
@@ -44,17 +44,17 @@
                 <br/>
                 <br/>
                 <br/>
-                <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-avatar.png">
+                <img src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-avatar.png">
             </div>
             </div>
               <form action="#" method="post">  
             <div class="line1">
-                <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
+                <img src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
                 <input type="text"  class="zhanghao" placeholder="账号" name="username" data-role="none">
             </div>
 
             <div class="line2">
-                <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-mima.png">
+                <img src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/images/dl-mima.png">
                 <input type="text"  class="mima" placeholder="密码" name="password" data-role="none">
             </div>
             
