@@ -4,7 +4,7 @@
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>登陆</title>     
 	<meta name="viewport" content="width=device-width, initial-scale=1">     
-    <link rel="stylesheet" type="text/css" href="/xiaolian/xiaolian-v0.1/Public/front/css/dl-style.css">  
+    <link rel="stylesheet" type="text/css" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/dl-style.css">  
 	<script>
 	  function but_click()
 	{
@@ -38,17 +38,17 @@
                 <br/>
                 <br/>
                 <br/>
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-avatar.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/dl-avatar.png">
             </div>
             </div>
                
             <div class="line1">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/dl-zhanghao.png">
                 <input type="text"  id="zhanghao" class="zhanghao" value="账号" onfocus="if(value=='账号') {value=''}" onblur="if (value=='') {value='账号'}" data-role="none">
             </div>
 
             <div class="line2">
-                <img src="/xiaolian/xiaolian-v0.1/Public/front/images/dl-mima.png">
+                <img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/dl-mima.png">
                 <input type="text"  id="mima" class="mima" value="密码" onfocus="if(value=='密码') {value=''}" onblur="if (value=='') {value='密码'}" data-role="none">
             </div>
             
