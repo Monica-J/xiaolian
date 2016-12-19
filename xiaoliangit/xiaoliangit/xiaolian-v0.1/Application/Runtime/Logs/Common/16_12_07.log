@@ -1,0 +1,12 @@
+[ 2016-12-07T09:58:06+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/%7Bn.newspic%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001096s ]
+ERR: 无法加载模块:{n
+
+[ 2016-12-07T22:16:29+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/index/activity_specific/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Index
+
