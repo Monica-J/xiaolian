@@ -1665,3 +1665,12 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
 
+[ 2016-12-19T15:41:13+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaoliangit/xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
