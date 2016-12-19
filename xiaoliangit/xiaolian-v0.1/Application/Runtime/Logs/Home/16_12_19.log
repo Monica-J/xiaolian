@@ -1,0 +1,1676 @@
+[ 2016-12-19T14:39:59+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined variable: posters E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 61 行.
+NOTIC: [8] Undefined variable: user E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 84 行.
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+NOTIC: [8] Undefined variable: news E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2016-12-19T14:40:01+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home/denglu/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-12-19T14:40:16+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home/denglu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-12-19T14:40:27+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home/denglu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0247s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+
+[ 2016-12-19T14:40:30+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home/denglu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-12-19T14:40:39+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/home/denglu/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Home\Controller\Upload.class.php 第 171 行.
+SQL: INSERT INTO `user` (`username`,`tel`,`userpic`,`password`,`addtime`) VALUES ('啦啦啦','15232182177','/xiaoliangit/xiaolian-v0.1/Public/uploads/2016-12-19/585780e74b10e.png','123','2016-12-19 14:40:39') [ RunTime:0.0036s ]
+
+[ 2016-12-19T14:40:39+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/denglu/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2016-12-19T14:40:47+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/denglu/enter.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '啦啦啦' AND `password` = '123' LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-12-19T14:40:48+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0245s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002303s ]
+
+[ 2016-12-19T14:40:52+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2016-12-19T14:40:53+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2016-12-19T14:41:21+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001911s ]
+
+[ 2016-12-19T14:41:25+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2016-12-19T14:41:26+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0212s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2016-12-19T14:41:46+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-12-19T14:42:10+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0225s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002561s ]
+
+[ 2016-12-19T14:42:17+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-12-19T14:42:36+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/shezhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-12-19T14:42:37+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/shezhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-12-19T14:42:59+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0220s ]
+SQL: UPDATE `user` SET `password`='123',`birthday`='1996-10-31',`gender`='女',`school`='河北师范大学',`introduce`='啦啦啦啦啦啦' WHERE ( username='啦啦啦' ) [ RunTime:0.0171s ]
+
+[ 2016-12-19T14:43:00+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-12-19T14:43:07+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/shezhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001470s ]
+
+[ 2016-12-19T14:43:11+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0192s ]
+SQL: UPDATE `user` SET `password`='123',`birthday`='1996-10-31',`gender`='女',`school`='河北师范大学',`introduce`='啦啦啦啦啦啦' WHERE ( username='啦啦啦' ) [ RunTime:0.0091s ]
+ERR: 模板不存在:./Application/Home/View/Mine/xiugai.html
+
+[ 2016-12-19T14:43:15+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/xiugai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0233s ]
+SQL: UPDATE `user` SET `password`='123',`birthday`='1996-10-31',`gender`='女',`school`='河北师范大学',`introduce`='啦啦啦啦啦啦' WHERE ( username='啦啦啦' ) [ RunTime:0.0050s ]
+ERR: 模板不存在:./Application/Home/View/Mine/xiugai.html
+
+[ 2016-12-19T14:43:18+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2016-12-19T14:43:19+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-12-19T14:43:23+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/dongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-12-19T14:43:31+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/adddongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0225s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dynamic` (`username`,`content`,`addtime`) VALUES ('啦啦啦','啦啦啦啦啦
+                    ','2016-12-19 14:43:31') [ RunTime:0.0010s ]
+
+[ 2016-12-19T14:43:32+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-12-19T14:44:52+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-12-19T14:45:12+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006296s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003479s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-12-19T14:45:13+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0264s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008662s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005418s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001680s ]
+
+[ 2016-12-19T14:45:16+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-12-19T14:45:18+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-12-19T14:46:11+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/task/task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000909s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-12-19T14:46:11+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/task/task.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-12-19T14:46:15+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-12-19T14:46:51+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/dongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-19T14:46:56+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/adddongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0242s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `dynamic` (`username`,`content`,`addtime`) VALUES ('啦啦啦','                    说点什么吧……
+                    ','2016-12-19 14:46:56') [ RunTime:0.0014s ]
+
+[ 2016-12-19T14:46:57+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-12-19T14:47:01+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-12-19T14:47:17+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001564s ]
+
+[ 2016-12-19T14:47:18+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-12-19T14:47:24+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006353s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003477s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-12-19T14:47:25+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006066s ]
+NOTIC: [8] Undefined index: content E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\6324dcbe10b865ed82c917bfc5847f27.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003966s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-12-19T14:47:27+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/addUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `user` WHERE ( id='1' )  [ RunTime:0.0009s ]
+SQL: SELECT `username` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `school` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `gender` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `birthday` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `userpic` FROM `user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` WHERE `username` = '啦啦啦' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' and fname='root' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `friends` (`username`,`fname`,`fschool`,`fgender`,`fbirthday`,`pic`) VALUES ('啦啦啦','root','河北师范大学','男','1994-10-18','/xiaoliangit/xiaolian-v0.1/Public/uploads/2016-12-10/584b9697f2707.JPG') [ RunTime:0.0007s ]
+
+[ 2016-12-19T14:47:28+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0216s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-12-19T14:47:43+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-12-19T14:47:44+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-12-19T14:47:45+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/haoyou
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-12-19T14:47:46+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/haoyou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-12-19T14:47:49+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/grzl/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `friends` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `friends` WHERE ( id='11' )  [ RunTime:0.0006s ]
+SQL: SELECT `fname` FROM `friends` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='root' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `user` WHERE ( username='root' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010031s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010697s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2016-12-19T14:47:50+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/grzl/id/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `friends` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `friends` WHERE ( id='11' )  [ RunTime:0.0009s ]
+SQL: SELECT `fname` FROM `friends` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='root' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `user` WHERE ( username='root' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007945s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008668s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-12-19T14:47:57+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/haoyou.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001438s ]
+
+[ 2016-12-19T14:48:02+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `user` WHERE ( username='啦啦啦' )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username='啦啦啦' )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `friends` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `friends` WHERE ( username='啦啦啦' )  [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friends` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `collection` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `collection` WHERE ( username='啦啦啦' )  [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `collection` WHERE ( username='啦啦啦' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 20 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 54 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+NOTIC: [8] Undefined variable: url E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\a8fda74f76e4f0a5d359699daff09140.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-12-19T14:48:07+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009307s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010172s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2016-12-19T14:48:08+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011658s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008538s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009564s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-12-19T14:48:14+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/dianzan/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `dynamic` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `scantime` FROM `dynamic` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `dynamic` SET `scantime`=scantime+1 WHERE ( id='1' ) [ RunTime:0.0013s ]
+
+[ 2016-12-19T14:48:15+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2016-12-19T14:48:32+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009181s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-12-19T14:48:33+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009458s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006844s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007537s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2016-12-19T14:48:35+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/dianzan/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0219s ]
+SQL: SELECT * FROM `dynamic` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `scantime` FROM `dynamic` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: UPDATE `dynamic` SET `scantime`=scantime+1 WHERE ( id='1' ) [ RunTime:0.0013s ]
+
+[ 2016-12-19T14:48:36+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0215s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `news` WHERE ( recommended=1 ) LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `posters` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `posters` LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE ( username!='啦啦啦' ) LIMIT 4   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined variable: n E:\wwwroot\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 115 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001969s ]
+
+[ 2016-12-19T14:48:51+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007109s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007757s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2016-12-19T14:48:52+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `dynamic` WHERE ( username!='啦啦啦' )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007176s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007987s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php:95) E:\wwwroot\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-12-19T15:41:13+08:00 ] 127.0.0.1 /xiaolianV0.1/xiaoliangit/xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+

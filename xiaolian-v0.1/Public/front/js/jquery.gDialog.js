@@ -91,7 +91,7 @@
         var that = this;
 
         that.close = function(){
-            $('.gdialog-shadow').addClass("animated fadeOut");
+            $('.gdialog-shadfow').addClass("animated fadeOut");
             if( that.options.animateOut ){
                 if( that.options.animateIn ){ that.container.find('.gdialog-container').removeClass(that.options.animateIn) }
                 that.container.find('.gdialog-container').addClass('animated '+that.options.animateOut);
