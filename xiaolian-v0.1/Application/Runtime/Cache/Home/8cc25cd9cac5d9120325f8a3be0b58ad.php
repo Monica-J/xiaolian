@@ -70,7 +70,7 @@
     <script>
         var as = new ActionSheet({
             buttons: {
-            	 '从相册选择图片'：<input type="file" accept="image/*;capture=camera"
+            	// '从相册选择图片'：<input type="file" accept="image/*;capture=camera"
                 '从相册选择图片': function(e){
                     
                     //if(!confirm('确定吗？')) return;
