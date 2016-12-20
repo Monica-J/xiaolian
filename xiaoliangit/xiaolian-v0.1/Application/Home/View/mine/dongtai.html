@@ -1,106 +1,14 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>发表动态</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
-    <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
-    <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
-    <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>  
-    <script src="__PUBLIC__/front/js/action-sheet.js"></script> 
-     <style>  
-     body{
-            margin: 0;
-            text-align: center;
-        }
-
-        button{
-            margin: 100px auto;
-            padding: 2em;
-            border: 1px solid #CCC;
-            border-radius: 5px;
-            background: #FFF;
-
-        }
-        </style>  
-</head>
-<body>
-	<div data-role="page">
-        <div data-role="header" style="background-color:#6fd7ca; color:white;">
-            <a href="__MODULE__/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
-            <h1 style="font-weight:200;">说说你想说的吧</h1> 
-             <a href="">发表</a>             
-        </div>
-        <div data-role="content">
-            <form method="post" action="demo_form.php">
-				<div class="ui-field-contain">
-				<label for="info"></label>
-				<textarea name="addinfo" id="info">
-					说点什么吧……
-				</textarea>
-				</div>
-			</form>
-			<br> -->
- 			<!--实现点击头像或者相机可以更改头像-->
- 			<!-- <div style="width:90px">
- 				<form method="post" action="demoform.asp" id="open">
-                	<img src="images/mine-shezhi-cam.png"  height=40px>
-             
-                </form>
- 			</div>
-	      	<hr>
-	     
-	      	<a href="#" data-role="button">显示地点</a>
-        	<div data-role="fieldcontain" >
-	            <label for="select-choice-1" class="select">谁能看见</label>
-	            <select data-native-menu="false" name="select-choice-2" id="select-choice-2">
-	                <option value="12h">所有人</option>
-	                <option value="1d">仅自己</option>
-	                <option value="2d">好友</option>
-	                
-	            </select>	
-        	</div>
-	      	
-        </div>
-
-    </div> 
-    <script>
-        var as = new ActionSheet({
-            buttons: {
-            	// '从相册选择图片'：<input type="file" accept="image/*;capture=camera"
-                '从相册选择图片': function(e){
-                    
-                    //if(!confirm('确定吗？')) return;
-                    
-
-                    this.hide();
-                },
-                '拍照': 'http://www.baidu.com',
-            }
-        });
-
-        document.getElementById('open').addEventListener('click', function(){
-            as.show();
-        });
-    </script>
-</body>
-</html> -->
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
 	<title>发表动态</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
     <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script> 
-     <script src="__PUBLIC__/front/js/action-sheet.js"></script> 
-     <style>
-      body{
+    <style>
+        body{
             margin: 0;
             text-align: center;
         }
@@ -113,78 +21,65 @@
             background: #FFF;
 
         }
- /*#open{
-        	background:url(images/mine-shezhi-cam.png); 
-        	width:30px;  
-        	height: 10px;
-        	margin:5px 0 0 20px; 
-        	border:none;
-
-        }*/
-  
-        </style>  
+    </style>  
 </head>
 <body>
     <div data-role="page">
-     <form method="post" action="__MODULE__/mine/adddongtai" enctype="multipart/form-data">
+        <form method="post" action="__MODULE__/mine/adddongtai" enctype="multipart/form-data">
         <div data-role="header" style="background-color:#6fd7ca; color:white;">
             <a href="mine.html"  onclick="location.href='__MODULE__/mine/mine'" data-icon="arrow-l" data-iconpos="notext"></a>
             <h1 style="font-weight:200">说说你想说的吧</h1>  
-           
         </div>
+        
         <div data-role="content">
            
                 <div class="ui-field-contain">
-                    <label for="info"></label>
-                    <textarea cols="40" rows="18" name="content" id="info" value="">
-                    说点什么吧……
-                    </textarea>
+                    <label for="textarea"></label>
+                    <textarea cols="50" rows="5" id="textarea" onKeyDown="textdown(event)" onKeyUp="textup()" onfocus="if(value=='说点什么吧...100字以内哦'){value=''}" onblur="if (value ==''){value='说点什么吧...100字以内哦'}" >说点什么吧...100字以内哦</textarea>
+                    
                     <!-- <input type="text"  id="mima" class="mima" name="content"  data-role="none" > -->
                 </div>
           <!--   </form> -->
             
-            <!--实现点击头像或者相机可以更改头像-->
-            <div style="width:300px;height:40px">
+            <div style="width:300px;height:40px;">
                 <form method="post" action="" id="open">
-                    <img src="__PUBLIC__/front/images/mine-shezhi-cam.png" style=" position:absolute; left:30px;top:180px;" height=40px>
-                    <input type="file" style=" position:absolute; left:100px;top:180px;" value="选取文件">
-                </form>
-             
+                    <br/>
+                    <br/>
+                    <br/>
+                    <img src="__PUBLIC__/front/images/dongtai-pic.png" style="float:left; margin-top:-35px;">
+                    <p style="margin-top:5px; color:#6fd7ca; font-size:13px; text-align:center;">（可以选择图片上传哦）</p>
+                    <input type="file" style=" position:absolute; left:100px;top:170px;" value="选取文件">
+                </form>             
             </div>
-            <hr>
-         
-          <!--   <a href="#" data-role="button">显示地点</a>
-            <div data-role="fieldcontain" >
-                <label for="select-choice-1" class="select">谁能看见</label>
-                <select data-native-menu="false" name="select-choice-2" id="select-choice-2">
-                    <option value="12h">所有人</option>
-                    <option value="1d">仅自己</option>
-                    <option value="2d">好友</option>
-                    
-                </select>   
-            </div> -->
-             <input type="submit"  value="提交">
+            
+            <br/>
+            <br/>
+            <br/>
+            <input type="submit"  value="提交" style="background-color:#6fd7ca;">
            
-         </form>
-    </div> 
-    <script>
-        var as = new ActionSheet({
-            buttons: {
-                // '从相册选择图片'：<input type="file" accept="image/*;capture=camera"
-                '从相册选择图片': function(e){
-                    
-                    //if(!confirm('确定吗？')) return;
-                    
-
-                    this.hide();
-                },
-                '拍照': 'http://www.baidu.com',
+    </div>
+    <SCRIPT type="text/javascript">    
+        function textdown(e) {
+            textevent = e;
+            if (textevent.keyCode == 8) {
+                return;
             }
-        });
-
-        document.getElementById('open').addEventListener('click', function(){
-            as.show();
-        });
-    </script>
+            if (document.getElementById('textarea').value.length >= 100) {
+                alert("大侠，手下留情，此处限字100")
+                if (!document.all) {
+                    textevent.preventDefault();
+                } else {
+                    textevent.returnValue = false;
+                }
+            }
+        }
+        function textup() {
+            var s = document.getElementById('textarea').value;
+            //判断ID为text的文本区域字数是否超过100个 
+            if (s.length > 100) {
+                document.getElementById('textarea').value = s.substring(0, 100);
+            }
+        }
+</SCRIPT>     
 </body>
 </html>
