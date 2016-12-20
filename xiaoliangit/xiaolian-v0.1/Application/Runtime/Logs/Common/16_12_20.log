@@ -1444,3 +1444,159 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
 ERR: 无法加载模块:Public
 
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery-2.2.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:11:28+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:00+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:00+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery-2.2.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:03+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery-2.2.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/action-sheet.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T11:14:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/mine-shezhi-cam.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Application
+
