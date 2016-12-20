@@ -1,0 +1,172 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8" />
+    <title>我的</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
+    <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body> 
+    <div data-role="page"> 
+        <div data-role="header" data-position="fixed">              
+            <volist name="user" id="u">
+            <!--用户部分信息-->
+            <div class="user" style="height:200px; background:url(__PUBLIC__/front/images/mine-bg.png);" >
+                <button type="button" id="open" style="background:url(__PUBLIC__/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;" onclick="logOutIn()"></button>
+                <a href="__MODULE__/mine/shezhi.html" onclick="location.href='__MODULE__/mine/shezhi'"><img src="__PUBLIC__/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
+                <br/>
+                <br/>
+                <a href="#"><img src="{$url}{$u.userpic}"  width="90px"  height="90px" style="clear: both; display: block; margin:auto;border-radius:50%"></a>
+                <p style="margin:4px 0 0 0; font-size:14px; text-align:center;">{$u.username}</p>
+                <p style="font-size:10px; color:#7d8180; text-align: center;">{$u.introduce}</p>
+          </volist>
+            </div>
+
+            <!--导航条-->
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a href="haoyou.html" onclick="location.href='__MODULE__/mine/haoyou'" ><img src="__PUBLIC__/front/images/mine-haoyou.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">好友 {$fc}</p></a>
+                    </li>
+                    <li>
+                        <a href="shoucang.html" onclick="location.href='__MODULE__/mine/shoucang'"><img src="__PUBLIC__/front/images/mine-shoucang.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">收藏 {$cc}</p></a>
+                    </li>
+                    <li>
+                        <a href="chengjiu.html"><img src="__PUBLIC__/front/images/mine-chengjiu.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">成就 5</p></a>
+                    </li>
+                    <li>
+                        <a href="tixing.html"><img src="__PUBLIC__/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 4</p></a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+
+
+        <div data-role="content"> 
+            
+            <!--我的动态-->
+            <div style="margin:2px 0 0 0;">
+                <h5 style="margin:-10px 0 0 0;">我的动态</h5>
+                <!--发布动态-->
+                <div>
+                    <img src="{$url}{$u.userpic}" width="50px" height="50px" style="margin:10px 0 0 0;border-radius:50%">
+                    <form style="margin:-55px 0 0 70px;">
+                        <label for="text"></label>
+                        <a href="#page2" onclick="location.href='__MODULE__/mine/dongtai'"><input type="text" name="text" id="text" placeholder="说说你想说的吧！" style="background:url(__PUBLIC__/front/images/mine-talkbg.png);"></a>
+                    </form>
+                </div>
+                <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
+                <!--历史动态-->
+                <div>
+                    
+                    <div>
+                    <volist name="dynamic" id="d">
+                        <img src="{$url}{$u.userpic}" width="50px" height="50px" style="margin:10px 0 0 0;border-radius:50%">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">{$d.username}</p>
+                        <p style="float:right; margin:-13px 0 0 0; font-size:8px;">{$d.addtime}</p>
+                        <div class="content">
+                            <p style="margin:24px 0 0 20px;">{$d.content}</p>
+                            <img src="__PUBLIC__/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
+                        </div>
+                        <br/>
+                        &nbsp;<img src="__PUBLIC__/front/images/mine-dianzan.png"><small style="color:#8E8E8E;font-size:12px;font-weight:200;">{$d.scantime}</small>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-zhuanfa.png"></a>
+                        <a href="" onclick="location.href='__MODULE__/mine/del/id/{$d.id}'"><p style="float:right; margin:1px 0 0 0; color:gray; font-size:6px;">删除</p></a>
+                        <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
+                        </volist>
+                    </div>
+                    
+
+                    <!-- <div>
+                        <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:10px 0 0 0;">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">我叫李自由</p>
+                        <p style="float:right; margin:-13px 0 0 0; font-size:8px;">2016.11.22 15:06</p>
+                        <div class="content">
+                            <p style="margin:24px 0 0 20px;">我在河北师范大学！</p>
+                            <img src="__PUBLIC__/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
+                        </div>
+                        <br/>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-dianzan.png"></a>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-zhuanfa.png"></a>
+                        <a href=""><p style="float:right; margin:1px 0 0 0; font-size:6px; color:gray;">删除</p></a>
+                    </div>
+                    <img src="__PUBLIC__/front/images/longline.png" style="margin:0 0 0 -15px; width:1500px;">
+
+                    <div>
+                        <img src="__PUBLIC__/front/images/mine-luser.png" style="margin:10px 0 0 0;">
+                        <p style="margin:-38px 0 0 60px; font-size:10px;">我叫李自由</p>
+                        <p style="float:right; margin:-13px 0 0 0; font-size:8px;">2016.11.22 15:06</p>
+                        <div class="content">
+                            <p style="margin:24px 0 0 20px;">我在河北师范大学！</p>
+                            <img src="__PUBLIC__/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
+                        </div>
+                        <br/>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-dianzan.png"></a>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-pinglun.png"></a>
+                        &nbsp;<a href=""><img src="__PUBLIC__/front/images/mine-zhuanfa.png"></a>
+                        <a href=""><p style="float:right; margin:1px 0 0 0; color:gray; font-size:6px;">删除</p></a>
+                    </div> -->
+
+                </div>
+            </div>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed"> 
+            
+            <div data-role="navbar">
+              <ul>
+                <li >
+                    <a href="__MODULE__/index/index.html"  onclick="location.href='__MODULE__/index/index'" style="background-color:#6fd7ca;">
+                        <img src="__PUBLIC__/front/images/shouye.png" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/task/task.html"  style="background-color:#6fd7ca;" onclick="location.href='__MODULE__/task/task'">
+                        <img src="__PUBLIC__/front/images/renwu.png" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">匹配任务</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/kankan/kankan.html"  style="background-color:#6fd7ca;" onclick="location.href='__MODULE__/kankan/kankan'">
+                        <img src="__PUBLIC__/front/images/kankan.png" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">看看</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/foot/foot.html"  style="background-color:#6fd7ca;" onclick="location.href='__MODULE__/foot/foot'">
+                        <img src="__PUBLIC__/front/images/zuji.png" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">足迹</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/mine/mine.html"  style="background-color:#6fd7ca;">
+                        <img src="__PUBLIC__/front/images/wode.png" onclick="location.href='__MODULE__/mine/mine'" style="width:24px; height:24px;">
+                        <p style="margin:1px 0px -5px 0px;color: #fff;font-size:12px;font-weight:100;font-family:'微软雅黑';">我的</p>
+                    </a>
+                </li>
+              </ul>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        function logOutIn(){
+            var r = confirm("是否退出登录？");
+            if (r == true) {
+                window.location.href = '__MODULE__/denglu/enter.html'
+            }
+            else{
+
+            }
+        }
+    </script>
+</body> 
+</html>

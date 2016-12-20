@@ -1,0 +1,36 @@
+[ 2016-12-08T11:00:36+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-08T11:00:58+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/mine/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Mine
+
+[ 2016-12-08T15:21:08+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-08T15:21:17+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-08T15:21:22+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-08T15:48:50+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Login
+
