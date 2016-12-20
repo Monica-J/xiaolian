@@ -12860,3 +12860,12 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
 ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
 
+[ 2016-12-20T10:59:31+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
