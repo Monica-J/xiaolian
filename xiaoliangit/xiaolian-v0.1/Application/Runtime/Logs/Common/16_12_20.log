@@ -1608,3 +1608,45 @@ INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
 ERR: 无法加载模块:H
 >>>>>>> fece024a2f82ac4e009f01e13740f6efdf461a16
 
+[ 2016-12-20T15:22:54+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/dongtai-pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:22:54+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:22:54+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery-2.2.2.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:22:54+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:22:55+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__PUBLIC__/front/images/dongtai-pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:22:59+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__MODULE__/mine/adddongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+ERR: 无法加载模块:Application
+
+[ 2016-12-20T15:23:04+08:00 ] 127.0.0.1 /xiaolian-git/xiaoliangit/xiaolian-v0.1/Application/Home/View/mine/__MODULE__/mine/adddongtai
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+ERR: 无法加载模块:Application
+
