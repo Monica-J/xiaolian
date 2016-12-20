@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+[ 2016-12-19T15:00:10+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-19T15:00:10+08:00 ] 127.0.0.1 /xiaolian/xiaolian-v0.1/Public/front/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+=======
 [ 2016-12-19T14:38:12+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.js
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
@@ -824,6 +836,7 @@ ERR: 无法加载模块:Public
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+>>>>>>> b97616b8f36e0ed1bc87c2648e5395d0fc655134
 ERR: 无法加载模块:Public
 
 [ 2016-12-19T16:32:34+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.js
