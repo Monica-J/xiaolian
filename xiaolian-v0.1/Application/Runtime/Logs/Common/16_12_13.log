@@ -1913,3 +1913,15 @@ INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
 >>>>>>> a395b3bdc5e799d223ae44c46677b2bb66dec3fd
 ERR: 无法加载模块:Public
 
+[ 2016-12-13T16:49:00+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-13T16:49:02+08:00 ] 127.0.0.1 /xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Public
+

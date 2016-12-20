@@ -1,0 +1,150 @@
+[ 2016-11-24T10:41:57+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.034099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+NOTIC: [8] Constant APP_PATH already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\index.php 第 24 行.
+NOTIC: [8] Constant MEMORY_LIMIT_ON already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 19 行.
+NOTIC: [8] Constant THINK_VERSION already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 23 行.
+NOTIC: [8] Constant URL_COMMON already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 26 行.
+NOTIC: [8] Constant URL_PATHINFO already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 27 行.
+NOTIC: [8] Constant URL_REWRITE already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 28 行.
+NOTIC: [8] Constant URL_COMPAT already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 29 行.
+NOTIC: [8] Constant EXT already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 32 行.
+NOTIC: [8] Constant MAGIC_QUOTES_GPC already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 69 行.
+NOTIC: [8] Constant IS_CGI already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 73 行.
+NOTIC: [8] Constant IS_WIN already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 74 行.
+NOTIC: [8] Constant IS_CLI already defined E:\2015-2016 2\html5\webserver\www.root\xiaolian\thinkphp_3.2.3\ThinkPHP\ThinkPHP.php 第 75 行.
+
+[ 2016-11-24T15:40:52+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载控制器:User
+
+[ 2016-11-24T15:41:10+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/News
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-11-24T15:41:19+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/School
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-11-24T15:41:24+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-11-24T15:41:33+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2016-11-24T16:01:20+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2016-11-24T16:01:20+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/School
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-11-24T16:01:21+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/News
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-11-24T16:01:21+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载控制器:User
+
+[ 2016-11-24T16:35:41+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
