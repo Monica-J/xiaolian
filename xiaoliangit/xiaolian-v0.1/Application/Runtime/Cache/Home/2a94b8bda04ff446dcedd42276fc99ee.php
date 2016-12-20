@@ -11,10 +11,24 @@
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/sangarSlider.css" type="text/css" media="all">
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/default.css" type="text/css" media="all">
 
+<<<<<<< HEAD
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.velocity.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/imagesloaded.min.js"></script>
+=======
+<<<<<<< HEAD
+    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.velocity.min.js"></script>
+    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/imagesloaded.min.js"></script>
+=======
+    <script type="text/javascript" src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.js"></script>
+    <script type="text/javascript" src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.velocity.min.js"></script>
+    <script type="text/javascript" src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="/xiaolian-git/xiaoliangit/xiaolian-v0.1/Public/front/js/imagesloaded.min.js"></script>
+>>>>>>> 8b86fa6186e8f1b3c2be806396408273c0c69570
+>>>>>>> 9ea63ab9636b51e3bc0022fc4f907fd3a4ed7f37
 
     <!-- jQuery Sangar Slider -->
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/sangarSlider/sangarBaseClass.js"></script>
@@ -81,7 +95,15 @@
                 </div>
                 <!--推荐用户-->
                 <div class="" style="margin-top: 10px;">
+<<<<<<< HEAD
                    <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 22px"></a>
+=======
+<<<<<<< HEAD
+                   &nbsp;<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 10px"></a>
+=======
+                   <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaolian-git/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 22px"></a>
+>>>>>>> 8b86fa6186e8f1b3c2be806396408273c0c69570
+>>>>>>> 9ea63ab9636b51e3bc0022fc4f907fd3a4ed7f37
                     
                     <!-- <div class="ui-block-b">
                         <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user-data.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/index-user.png" style="width: 60px;height: 60px;"></a>

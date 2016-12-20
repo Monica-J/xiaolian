@@ -14,6 +14,7 @@
         <div data-role="header" data-position="fixed">              
             <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><!--用户部分信息-->
             <div class="user" style="height:200px; background:url(/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-bg.png);" >
+                <button type="button" id="open" style="background:url(/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-logout.png); width:25px; height:25px; float:left; margin-left:7px; border:none;" onclick="logOutIn()"></button>
                 <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/shezhi.html" onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/shezhi'"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi.png" style="float:right; margin:5px 5px 0 0;"></a>
                 <br/>
                 <br/>
@@ -46,10 +47,9 @@
         <div data-role="content"> 
             
             <!--我的动态-->
-            <div style="margin:0px 0 0 0;">
-                <h5>我的动态</h5>
+            <div style="margin:2px 0 0 0;">
+                <h5 style="margin:-10px 0 0 0;">我的动态</h5>
                 <!--发布动态-->
-                <br/>
                 <div>
                     <img src="<?php echo ($url); echo ($u["userpic"]); ?>" width="50px" height="50px" style="margin:10px 0 0 0;border-radius:50%">
                     <form style="margin:-55px 0 0 70px;">
@@ -153,5 +153,16 @@
 
         </div>
     </div>
+    <script type="text/javascript">
+        function logOutIn(){
+            var r = confirm("是否退出登录？");
+            if (r == true) {
+                window.location.href = '/xiaoliangit/xiaolian-v0.1/index.php/Home/denglu/enter.html'
+            }
+            else{
+
+            }
+        }
+    </script>
 </body> 
 </html>
