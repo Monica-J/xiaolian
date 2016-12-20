@@ -8,6 +8,7 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <link rel="stylesheet" href="/xiaolian/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script src="/xiaolian/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
@@ -18,6 +19,12 @@
     <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
      <script src="/xiaolianV0.1/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
 >>>>>>> b97616b8f36e0ed1bc87c2648e5395d0fc655134
+=======
+    <link rel="stylesheet" href="/xiaolian-git/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
+    <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script> 
+     <script src="/xiaolian-git/xiaolian-v0.1/Public/front/js/action-sheet.js"></script> 
+>>>>>>> 8630cda394b621ceff84fa35cb1dfdf74c31f2bf
      <style>
       body{
             margin: 0;
@@ -40,10 +47,14 @@
 	<div data-role="page">
         <div data-role="header" style="background-color:#6fd7ca; color:white;">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
 =======
             <a href="/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolianV0.1/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
 >>>>>>> b97616b8f36e0ed1bc87c2648e5395d0fc655134
+=======
+            <a href="/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html"  onclick="location.href='/xiaolian-git/xiaolian-v0.1/index.php/Home/mine/mine.html'" data-icon="arrow-l" data-iconpos="notext"></a>
+>>>>>>> 8630cda394b621ceff84fa35cb1dfdf74c31f2bf
             <h1 style="font-weight:200">说说你想说的吧</h1>  
             <a href="">发表</a>          
         </div>
@@ -61,10 +72,14 @@
  			<div style="width:90px">
  				<form method="post" action="demoform.asp" id="open">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 	<img src="/xiaolian/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
 =======
                 	<img src="/xiaolianV0.1/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
 >>>>>>> b97616b8f36e0ed1bc87c2648e5395d0fc655134
+=======
+                	<img src="/xiaolian-git/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png"  height=40px>
+>>>>>>> 8630cda394b621ceff84fa35cb1dfdf74c31f2bf
              
                 </form>
  			</div>
