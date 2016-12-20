@@ -38,7 +38,7 @@
                 <!--实现点击头像或者相机可以更改头像-->
 	            <div class="avatar"> 
 	            <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><img src="<?php echo ($url); echo ($u["userpic"]); ?>"  width="90px" height="90px" style="margin:10px 0 0 0;border-radius:50%" style="clear:both; display: block; margin:auto;">
-	                <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/avatar.html" onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/avatar.html'"><button type="button" id="open" style="background:url(/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
+	                <a href=""><button type="button" id="open" style="background:url(/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-cam.png); width:10px; margin:-25px 0 0 200px; border:none;"></button></a>
 	            </div>
 
 	           <div class="infor">
@@ -49,17 +49,17 @@
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
 									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
-									<label for="password" style="margin:20px 0px 0 35px;" >密码</label>
+									<label for="username" style="margin:20px 90px 0 0px;" >用户名</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
-									<input type="text" name="password" id="password" value="<?php echo ($u["password"]); ?>">
+									<input type="text" name="username" id="username" value="<?php echo ($u["username"]); ?>">
 								</div>
 							</div>
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
 									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-sex.png" style="float:left; margin:14px 0 0 0;">
-									<label for="sex" style="margin:20px 0px 0 35px;">性别</label>
+									<label for="sex" style="margin:20px 107px 0 0px;">性别</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<fieldset>
@@ -74,7 +74,7 @@
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
 									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-birth.png" style="float:left; margin:14px 0 0 0;">
-									<label for="birth" style="margin:20px 0px 0 35px;">生日</label>
+									<label for="birth" style="margin:20px 107px 0 0px;">生日</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="date" name="birthday" id="birth" value="<?php echo ($u["birthday"]); ?>">
@@ -84,7 +84,7 @@
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
 									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-univer.png" style="float:left; margin:14px 0 0 0;">
-									<label for="univer" style="margin:20px 0px 0 35px;">大学</label>
+									<label for="univer" style="margin:20px 107px 0 0px;">大学</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="text" name="school" id="univer" value="<?php echo ($u["school"]); ?>">
@@ -94,7 +94,7 @@
 							<div class="ui-grid-a">
 								<div class="ui-block-a">
 									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-gq.png" style="float:left; margin:14px 0 0 0;">
-									<label for="gq" style="margin:20px 0px 0 35px;">个性签名</label>
+									<label for="gq" style="margin:20px 75px 0 0px;">个性签名</label>
 								</div>
 								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
 									<input type="text" name="introduce" id="gq" value="<?php echo ($u["introduce"]); ?>">

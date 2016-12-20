@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/sangarSlider.css" type="text/css" media="all">
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/default.css" type="text/css" media="all">
 
-    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.js"></script>
+    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.velocity.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/imagesloaded.min.js"></script>
@@ -81,7 +81,7 @@
                 </div>
                 <!--推荐用户-->
                 <div class="" style="margin-top: 10px;">
-                   <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 22px"></a>
+                   &nbsp;<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 10px"></a>
                     
                     <!-- <div class="ui-block-b">
                         <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user-data.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/index-user.png" style="width: 60px;height: 60px;"></a>
