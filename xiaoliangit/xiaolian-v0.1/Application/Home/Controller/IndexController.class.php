@@ -7,9 +7,9 @@ class IndexController extends Controller {
     	//推荐新闻部分
       $userModel = M("user");
       $username=session('username');
-      if($username!=''){
+      
          $newsModel = M("news");
-        $newsResult = $newsModel->where('recommended=1')->limit(3)->select();
+        $newsResult = $newsModel->where('recommended=1')->order('posttime desc')->limit(3)->select();
         $this->assign("news",$newsResult);
 
         $postersModel=M("posters");
@@ -25,12 +25,7 @@ class IndexController extends Controller {
         $url='http://'.$_SERVER['SERVER_NAME'];
         $this->assign("url",$url);
 
-      }else{
-         echo "<script>";
-         echo "alert('请先登录');";
-         echo "location.href='./home/denglu/enter.html';";
-         echo "</script>";
-      }
+      
         
        
         // $userModel=M("user");
@@ -78,7 +73,14 @@ public function collection(){
   $id=(int)$id; 
  
     $username=session('username');
-  
+    // dump($username);exit;
+    if($username==""){
+                echo "<script>";
+                echo "alert('请先登录');";
+                echo "location.href='../denglu/enter.html';";
+                echo "</script>";      
+    }
+    else{
     $title = $newsModel->where("id='$id'")->getField('title');
     $newspic = $newsModel->where("id='$id'")->getField('newspic');
     $content = $newsModel->where("id='$id'")->getField('content');
@@ -93,9 +95,10 @@ public function collection(){
                     "title"=>$title,
                     "newspic"=>$newspic,
                     "content"=>$content,
-                    "scantime"=>$scantime
+                    "scantime"=>$scantime,
+                    "nid"=>$id
                 );
-    // dump($id); dump($condition);exit;
+     // dump($condition);exit;
     $collectionModel=M("collection");
     $check=$collectionModel->where("username='$username' and title='$title'")->count();
     // dump($check);exit;
@@ -115,14 +118,20 @@ public function collection(){
           
           $newsResult=$newsModel->where("id='$id'")->select();
           // dump($newsResult);exit;
-          $this->redirect("index/index");
+                echo "<script>";
+                echo "alert('收藏成功!');";
+                echo "location.href='index.html';";
+                echo "</script>";
         }
         else{
                  $this->errot("收藏失败");
             }
     }
     }
-   
+
+    }
+  
+
 
 }
    
@@ -152,6 +161,13 @@ public function user_data($id=''){
         // dump($userResult);exit;
             $id=(int)$id;
             $username=session('username');
+            // dump($username);exit;
+            if($username==""){
+                echo "<script>";
+                echo "alert('请先登录');";
+                echo "location.href='../denglu/enter.html';";
+                echo "</script>";
+            }
             $fname = $userModel->getFieldById($id,'username');
             $fschool = $userModel->getFieldById($id,'school');
             $fgender = $userModel->getFieldById($id,'gender');

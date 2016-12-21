@@ -20,7 +20,7 @@ class AdminController extends Controller{
 			//dump($condition);exit;
 			if($result > 0){
 				session("username",I("post.username"));//session赋值
-				$this->success("登录成功！"U("user/user_list"));
+				$this->success("登录成功！",U("user/user_list"));
 
 				
 			}else{

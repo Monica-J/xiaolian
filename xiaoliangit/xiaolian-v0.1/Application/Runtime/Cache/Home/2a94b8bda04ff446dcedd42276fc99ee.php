@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/sangarSlider.css" type="text/css" media="all">
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/default.css" type="text/css" media="all">
 
-    <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.velocity.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.touchSwipe.min.js"></script>
     <script type="text/javascript" src="/xiaoliangit/xiaolian-v0.1/Public/front/js/imagesloaded.min.js"></script>
@@ -80,8 +79,8 @@
                     <h4 style="font-family:'黑体';font-weight:bold;">校客推荐</h4>
                 </div>
                 <!--推荐用户-->
-                <div class="" style="margin-top: 10px;">
-                   &nbsp;<?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px;height: 60px;border-radius:50%;margin-right: 10px"></a>
+                <div class="" style="margin-top: -10px;">
+                   <?php if(is_array($user)): $i = 0; $__LIST__ = $user;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$u): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>"  onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user_data/id/<?php echo ($u["id"]); ?>'"><img src="<?php echo ($url); echo ($u["userpic"]); ?>" style="width: 60px; height:60px; border-radius:50%; margin-right:19px;"></a>
                     
                     <!-- <div class="ui-block-b">
                         <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/user-data.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/index-user.png" style="width: 60px;height: 60px;"></a>
@@ -98,12 +97,12 @@
             <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/shadow.png" style="width:1500px;height:10px;margin-left:-20px;">
             <!--热门活动-->
             <div class="panel-2">
-                <div class="ui-grid-a">
-                    <div class="ui-block-a" style="margin: -12px -5px 0 0;">
-                        <h4 style="font-family:'黑体';font-weight:bold;">热门活动</h4>
+                <div class="ui-grid-a" style="margin-top: 5px;">
+                    <div class="ui-block-a" style="margin-right:-5px;">
+                        <h4 style="font-family:'黑体';font-weight:bold; margin-top:0px;">热门活动</h4>
                     </div>
-                    <div class="ui-block-b" style="margin: 10px -5px 5px 0;">
-                        <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/activity_more.html" style="float:right;color:#6fd7ca;font-size:14px;text-decoration:none;" onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/activity_more'"><span>更多<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/index-more.png" style="width:14px;height:14px;"></span></a>
+                    <div class="ui-block-b" style="margin: 0 -5px 5px 0;">
+                        <a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/index/activity_more.html" style="float:right;color:#6fd7ca;font-size:14px;text-decoration:none;" onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/activity_more'"><span>更多<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/index-more.png" style="width:15px;height:15px;"></span></a>
                     </div>
                 </div>
                 <!--热门活动推荐-->

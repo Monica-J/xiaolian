@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8"/>
     <title>看看</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
@@ -10,28 +10,19 @@
 </head>
 <body>
 	<div data-role="page">
-		
-		<div data-role="header" data-position="fixed">
-			<!--导航条-->
-			<div data-role="navbar">
-				<ul>
-					<li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/kankan.html" style="font-size:15px;">所有动态</a></li>
-                    <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/tbgx.html" style="font-size:15px;">特别关心</a></li>
-                    <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/wzdt.html" style="font-size:15px;">文字动态</a></li>
-                    <li><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/kankan/tpdt.html" style="font-size:15px;">图片动态</a></li>
-				</ul>
-			</div>
-		</div>
+        <div data-role="header" style="background-color:#6fd7ca;color:#fff;">
+            <h1 style="font-weight:200;">看看其他人</h1>
+        </div>		
 
 		<div data-role="content">
 			
-			<div style="margin:0px 0 0 0;">
-				<h5>看看其他人</h5>
+			<div style="margin:-30px 0 0 0;">
+				
                 <br/>
                 <?php if(is_array($dynamic)): $i = 0; $__LIST__ = $dynamic;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$d): $mod = ($i % 2 );++$i;?><div>
-                    <img src="<?php echo ($url); echo ($d["userpic"]); ?>" width="50px" height="50px" style="margin:10px 0 0 0;border-radius:50%">
+                    <img src="<?php echo ($url); echo ($d["userpic"]); ?>"  width="50px" height="50px" style="margin:10px 0 0 0;border-radius:50%">
                     <p style="margin:-38px 0 0 60px; font-size:10px;"><?php echo ($d["username"]); ?></p>
-                    <p style="float:right; margin:-13px 0px 0 240px; font-size:8px;"><?php echo ($d["addtime"]); ?></p>
+                    <p style="float:right; margin:-13px 0px 0 24px; font-size:8px;"><?php echo ($d["addtime"]); ?></p>
                     <div class="content">
                         <p style="margin:24px 0 0 20px;"><?php echo ($d["content"]); ?></p>
                         <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">

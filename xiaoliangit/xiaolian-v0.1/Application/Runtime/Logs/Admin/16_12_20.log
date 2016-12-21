@@ -1,0 +1,948 @@
+[ 2016-12-20T09:34:30+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+
+[ 2016-12-20T09:34:34+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.364970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.365141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2016-12-20T09:34:43+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `admin_users` [ RunTime:0.7211s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_users` WHERE `username` = 'root' AND `password` = '123' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2016-12-20T09:34:45+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2016-12-20T09:34:48+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2016-12-20T09:35:42+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Admin\Controller\Upload.class.php 第 171 行.
+SQL: INSERT INTO `news` (`ID`,`newspic`,`title`,`content`,`posttime`,`scantime`,`schoolname`,`author`) VALUES ('0','/xiaoliangit/xiaolian-v0.1/Public/uploads/2016-12-20/58588aedeb198.png','123','HTML内容123','2016-12-20  09:34','0','123','123') [ RunTime:0.0675s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2016-12-20T09:35:43+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-12-20T09:43:09+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001505s ]
+
+[ 2016-12-20T15:30:50+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-12-20T15:30:52+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2016-12-20T15:31:02+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-12-20T15:31:04+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-12-20T15:31:11+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-12-20T15:31:29+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: 非法操作:index
+
+[ 2016-12-20T15:31:31+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-12-20T15:31:32+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-12-20T15:32:48+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-12-20T15:32:51+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-12-20T15:33:07+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/Admin/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `admin_users` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_users` WHERE `username` = 'root' AND `password` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2016-12-20T15:33:08+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/user/user_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008563s ]
+
+[ 2016-12-20T15:33:10+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2016-12-20T15:34:04+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Admin\Controller\Upload.class.php 第 171 行.
+SQL: INSERT INTO `news` (`ID`,`newspic`,`title`,`content`,`posttime`,`scantime`,`schoolname`,`author`) VALUES ('0','/xiaoliangit/xiaolian-v0.1/Public/uploads/2016-12-20/5858deec65e40.png','组合数学与编码简介','
+&lt;div&gt;
+	组合数学与编码简介&lt;br /&gt;
+&lt;br /&gt;
+主&amp;nbsp;讲&amp;nbsp;人&amp;nbsp;：常彦勋&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;教授&lt;br /&gt;
+&lt;br /&gt;
+活动时间：12月20日16时30分&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+地&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;点&amp;nbsp;：理科群1号楼D-203&lt;br /&gt;
+&lt;br /&gt;
+讲座内容：&lt;br /&gt;
+&lt;br /&gt;
+组合数学是研究离散构形的一门数学分支，它有着丰富的研究内容和历史渊源，在计算机科学、信息科学、编码密码学等众多领域有重要应用。报告将介绍一些历史上著名的组合问题，以及组合数学理论在编码学中的应用，同时简单介绍北京交通大学数学系的研究生招生情况。&lt;br /&gt;
+&lt;br /&gt;
+主讲人介绍：&lt;br /&gt;
+&lt;br /&gt;
+常彦勋，北京交通大学二级教授，博士生导师，数学系主任。1995年获苏州大学应用数学博士学位。第二届全国高校青年教师奖获得者,&amp;nbsp;2000年获铁道部有突出贡献的中青年专家称号,&amp;nbsp;2004年享受国家特殊津贴。主持完成国家自然科学基金项目5项及1项博士点基金，正主持国家自然科学基金重点项目。在组合数学与编码理论领域发表170余篇学术论文，其中130余篇被SCI收录，一项成果在1991年（与人合作）获河北省科技进步一等奖，另一成果在2001年（与人合作）获全国高校科技奖自然科学二等奖。现任中国组合数学与图论专业委员会常务理事，国际组合数学与应用学会Fellow，中国数学会理事。&lt;br /&gt;
+&lt;/div&gt;
+','2016-12-20  15:33','0','2016-12-20 16:30','li') [ RunTime:0.2178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-12-20T15:34:05+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2016-12-20T15:35:30+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 40 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2016-12-20T15:35:54+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0103s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='组合数学与编码简介',`posttime`='2016-12-20  15:35',`schoolname`='河北师范大学',`author`='li',`content`='&lt;div&gt;
+	&lt;div&gt;
+		组合数学与编码简介&lt;br /&gt;
+&lt;br /&gt;
+主&amp;nbsp;讲&amp;nbsp;人&amp;nbsp;：常彦勋&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;教授&lt;br /&gt;
+&lt;br /&gt;
+活动时间：12月20日16时30分&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+地&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;点&amp;nbsp;：理科群1号楼D-203&lt;br /&gt;
+&lt;br /&gt;
+讲座内容：&lt;br /&gt;
+&lt;br /&gt;
+组合数学是研究离散构形的一门数学分支，它有着丰富的研究内容和历史渊源，在计算机科学、信息科学、编码密码学等众多领域有重要应用。报告将介绍一些历史上著名的组合问题，以及组合数学理论在编码学中的应用，同时简单介绍北京交通大学数学系的研究生招生情况。&lt;br /&gt;
+&lt;br /&gt;
+主讲人介绍：&lt;br /&gt;
+&lt;br /&gt;
+常彦勋，北京交通大学二级教授，博士生导师，数学系主任。1995年获苏州大学应用数学博士学位。第二届全国高校青年教师奖获得者,&amp;nbsp;2000年获铁道部有突出贡献的中青年专家称号,&amp;nbsp;2004年享受国家特殊津贴。主持完成国家自然科学基金项目5项及1项博士点基金，正主持国家自然科学基金重点项目。在组合数学与编码理论领域发表170余篇学术论文，其中130余篇被SCI收录，一项成果在1991年（与人合作）获河北省科技进步一等奖，另一成果在2001年（与人合作）获全国高校科技奖自然科学二等奖。现任中国组合数学与图论专业委员会常务理事，国际组合数学与应用学会Fellow，中国数学会理事。&lt;br /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `ID` = '40' [ RunTime:0.0865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2016-12-20T15:35:55+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2016-12-20T15:36:28+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 40 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-20T15:37:01+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='组合数学与编码简介',`posttime`='2016-12-20  15:36',`schoolname`='河北师范大学',`author`='li',`content`='&lt;div&gt;
+	&lt;div&gt;
+		组合数学与编码简介主&amp;nbsp;讲&amp;nbsp;人&amp;nbsp;：常彦勋&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;教授活动时间：12月20日16时30分&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `ID` = '40' [ RunTime:0.0695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-12-20T15:37:02+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2016-12-20T15:37:50+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-12-20T15:37:54+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 40 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-12-20T15:40:50+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='组合数学与编码简介',`posttime`='2016-12-20  15:37',`schoolname`='河北师范大学',`author`='li',`content`='&lt;div&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			组合数学与编码简介&lt;br /&gt;
+&lt;br /&gt;
+主&amp;nbsp;讲&amp;nbsp;人&amp;nbsp;：常彦勋&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;教授&lt;br /&gt;
+&lt;br /&gt;
+活动时间：12月20日16时30分&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+地&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;点&amp;nbsp;：理科群1号楼D-203&lt;br /&gt;
+&lt;br /&gt;
+讲座内容：&lt;br /&gt;
+&lt;br /&gt;
+组合数学是研究离散构形的一门数学分支，它有着丰富的研究内容和历史渊源，在计算机科学、信息科学、编码密码学等众多领域有重要应用。报告将介绍一些历史上著名的组合问题，以及组合数学理论在编码学中的应用，同时简单介绍北京交通大学数学系的研究生招生情况。&lt;br /&gt;
+&lt;br /&gt;
+主讲人介绍：&lt;br /&gt;
+&lt;br /&gt;
+常彦勋，北京交通大学二级教授，博士生导师，数学系主任。1995年获苏州大学应用数学博士学位。第二届全国高校青年教师奖获得者,&amp;nbsp;2000年获铁道部有突出贡献的中青年专家称号,&amp;nbsp;2004年享受国家特殊津贴。主持完成国家自然科学基金项目5项及1项博士点基金，正主持国家自然科学基金重点项目。在组合数学与编码理论领域发表170余篇学术论文，其中130余篇被SCI收录，一项成果在1991年（与人合作）获河北省科技进步一等奖，另一成果在2001年（与人合作）获全国高校科技奖自然科学二等奖。现任中国组合数学与图论专业委员会常务理事，国际组合数学与应用学会Fellow，中国数学会理事。&lt;br /&gt;
+		&lt;/div&gt;
+&lt;br /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `ID` = '40' [ RunTime:0.0560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-20T15:40:51+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-12-20T15:42:10+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 40 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-12-20T15:46:51+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='组合数学与编码简介',`posttime`='2016-12-20  15:42',`schoolname`='河北师范大学',`author`='li',`content`='&lt;div&gt;
+	&lt;div&gt;
+		&lt;div&gt;
+			组合数学是研究离散构形的一门数学分支，它有着丰富的研究内容和历史渊源，在计算机科学、信息科学、编码密码学等众多领域有重要应用。报告将介绍一些历史上著名的组合问题，以及组合数学理论在编码学中的应用，同时简单介绍北京交通大学数学系的研究生招生情况。&lt;br /&gt;
+&lt;br /&gt;
+		&lt;/div&gt;
+&lt;br /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;' WHERE `ID` = '40' [ RunTime:0.0460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-12-20T15:46:52+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2016-12-20T15:53:40+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2016-12-20T15:55:33+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/doAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Admin\Controller\Upload.class.php 第 171 行.
+NOTIC: [2] trim() expects at most 2 parameters, 3 given E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Admin\Controller\NewsController.class.php 第 42 行.
+SQL: INSERT INTO `news` (`ID`,`newspic`,`title`,`content`,`posttime`,`scantime`,`schoolname`,`author`) VALUES ('0','/xiaoliangit/xiaolian-v0.1/Public/uploads/2016-12-20/5858e3f591dd8.png','Recent Advancement and Future Trend of Magnetic Recording Systems','','2016-12-19  15:00','0','河北师范大学 理科群2号楼A-302室','li') [ RunTime:0.3201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-12-20T15:55:35+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/news/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-12-20T15:55:53+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 41 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2016-12-20T15:55:58+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0099s ]
+NOTIC: [8] Undefined index: validate E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `news` SET `title`='Recent Advancement and Future Trend of Magnetic Re',`posttime`='2016-12-20  15:55',`schoolname`='河北师范大学 理科群2号楼A-302室',`author`='li',`content`='霍素国, 博士，英国University College London大学纳米实验中心实验室研究员。曾先后在英国希捷公司、布里斯托大学从事计算机硬盘及磁记录薄膜材料的研究，之后进入伦敦大学学院从事纳米磁性材料的研究。在纳米材料结构表征、磁学及磁记录材料的实验与理论研究等方面取得了引人注目的成绩。&lt;br /&gt;
+&lt;br /&gt;' WHERE `ID` = '41' [ RunTime:0.0469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-12-20T15:55:59+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: u E:\2015-2016 2\html5\webserver\www.root\xiaoliangit\xiaolian-v0.1\Application\Runtime\Cache\Admin\5dc7cb56e7e8cd7601e6f40f87c141e0.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004854s ]
+
+[ 2016-12-20T15:56:01+08:00 ] 127.0.0.1 /xiaoliangit/xiaolian-v0.1/index.php/Admin/News/news_edit/id/41
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `news` WHERE `ID` = 41 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+

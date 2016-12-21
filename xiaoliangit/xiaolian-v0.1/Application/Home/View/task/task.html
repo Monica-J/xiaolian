@@ -54,10 +54,10 @@
 <body>  
     <div data-role="page">
        <div data-role="content">
-            <div id="container" style="width:1500px; height:1500px;">
+            <div id="container" style="width:500px;height:600px;">
             </div>
-            <div id="tip1">
-            </div>
+            <!--返回定位信息暂时隐藏-->
+            <!--<div id="tip1" style=""></div>-->
             <div id="tip" style="float:right;">
                 <input type="text" id="keyword" name="keyword" value="请输入关键字：(选定后搜索)" onfocus='this.value=""'/ style="">
                 <button type="button" id="open" class="btn start" style="background:url(__PUBLIC__/front/images/task-start.png); width: 0px; float: right; margin: -35px 0 0 300px; border: none;"></button>
@@ -129,7 +129,7 @@
             str.push('纬度：' + data.position.getLat());
             str.push('精度：' + data.accuracy + ' 米');
             str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
-            document.getElementById('tip1').innerHTML = str.join('<br>');
+            //document.getElementById('tip1').innerHTML = str.join('<br>');
             
         }
         //解析定位错误信息

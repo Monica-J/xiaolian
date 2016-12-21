@@ -1,6 +1,0 @@
-[ 2016-11-28T19:24:48+08:00 ] 127.0.0.1 /xiaolian/thinkphp_3.2.3/admin.php/user
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
-ERR: 无法加载模块:User
-

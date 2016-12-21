@@ -36,7 +36,7 @@
                         <a href="chengjiu.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-chengjiu.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">成就 5</p></a>
                     </li>
                     <li>
-                        <a href="tixing.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 4</p></a>
+                        <a href="tixing.html"><img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 <?php echo ($dt); ?></p></a>
                     </li>
                 </ul>
             </div>
@@ -67,7 +67,7 @@
                         <p style="float:right; margin:-13px 0 0 0; font-size:8px;"><?php echo ($d["addtime"]); ?></p>
                         <div class="content">
                             <p style="margin:24px 0 0 20px;"><?php echo ($d["content"]); ?></p>
-                            <img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
+                            <img src="<?php echo ($url); echo ($d["pic"]); ?>" width="300px" height="150px" style="margin:6px 0 0 20px;">
                         </div>
                         <br/>
                         &nbsp;<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-dianzan.png"><small style="color:#8E8E8E;font-size:12px;font-weight:200;"><?php echo ($d["scantime"]); ?></small>
@@ -157,6 +157,7 @@
         function logOutIn(){
             var r = confirm("是否退出登录？");
             if (r == true) {
+
                 window.location.href = '/xiaoliangit/xiaolian-v0.1/index.php/Home/denglu/enter.html'
             }
             else{

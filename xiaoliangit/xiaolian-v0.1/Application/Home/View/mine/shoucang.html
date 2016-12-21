@@ -17,7 +17,7 @@
 		<div data-role="content">
 			<div>
             <volist name="collection" id="c">
-                <a href="__MODULE__/mine/activity-specific.html" style="text-decoration:none;">
+                <a href="" onclick="location.href='__MODULE__/index/activity_specific/id/{$c.nid}'" style="text-decoration:none;">
                 	<span>
                 		<img src="{$url}{$c.newspic}" style="width:100%">
                 		<p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;">{$c.content}</p>

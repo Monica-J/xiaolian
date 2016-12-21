@@ -8,15 +8,21 @@ class DengluController extends Controller {
 			// dump($UsersModel);
 			// exit;
 			$condition = array(
-					"username" => I("post.username"),
+					"tel" => I("post.tel"),
 					"password" => I("post.password")
 				);
-
+          // dump($condition);exit;
 			$result = $UsersModel->where($condition)->count();//得到数据条数
+			// dump($result);exit;
 			if($result > 0){
 				
-				
-				session("username",I("post.username"));
+				$username =$UsersModel->where($condition)->getField('username');
+				$userpic =$UsersModel->where($condition)->getField('userpic');
+
+				session("username",$username);
+				session("userpic",$userpic);
+				// dump($username);exit;
+				// dump($Userresult);exit;
 				// $Userresult=$UsersModel->where("username=".session("username"))->select();
 				// $this->assign("user",$Userresult);
 				// //session赋值
@@ -25,7 +31,11 @@ class DengluController extends Controller {
 				$this->redirect("mine/mine");
 										
 			}else{
-				$this->error("用户名或密码不正确");//第二个参数不写，返回上一页
+				// $this->error("用户名或密码不正确");//第二个参数不写，返回上一页
+				echo "<script>";
+                echo "alert('密码错误!');";
+                echo "location.href='enter.html';";
+                echo "</script>";
 			}
 		}
 		else{
@@ -56,11 +66,18 @@ class DengluController extends Controller {
 		    	      $data['tel']=I("post.tel");
 		    	      $data['userpic'] =  __ROOT__.'/Public'.$uploadPic['userpic']['savepath'].$uploadPic['userpic']['savename'];
 		    	      $data['password']=I("post.password");
+		    	      $data['gender']=I("post.gender");
+		    	      $data['birthday']=I("post.birthday");
 		    	      $data['addtime']=date('Y-m-d H:i:s');
+		    	      $data['introduce']='我是'.I("post.username");
 		    	      if($UsersModel->add($data)){
 		    	      	$this->redirect("denglu/enter");
 		    	      }else{
-		    	      	    $this->errot("注册失败");
+		    	      	    // $this->errot("注册失败");
+		    	      	echo "<script>";
+                        echo "alert('注册失败!');";
+                        echo "location.href='register.html';";
+                        echo "</script>";
 		    	      }
 	              }
 

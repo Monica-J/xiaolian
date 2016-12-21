@@ -16,7 +16,7 @@
 		</div>
 		<div data-role="content">
 			<div>
-            <?php if(is_array($collection)): $i = 0; $__LIST__ = $collection;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$c): $mod = ($i % 2 );++$i;?><a href="/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/activity-specific.html" style="text-decoration:none;">
+            <?php if(is_array($collection)): $i = 0; $__LIST__ = $collection;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$c): $mod = ($i % 2 );++$i;?><a href="" onclick="location.href='/xiaoliangit/xiaolian-v0.1/index.php/Home/index/activity_specific/id/<?php echo ($c["nid"]); ?>'" style="text-decoration:none;">
                 	<span>
                 		<img src="<?php echo ($url); echo ($c["newspic"]); ?>" style="width:100%">
                 		<p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;"><?php echo ($c["content"]); ?></p>

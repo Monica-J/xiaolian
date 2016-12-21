@@ -39,7 +39,7 @@ class NewsController extends Controller{
 			$newsdata['ID'] = I("post.ID");
 			$newsdata['newspic'] =  __ROOT__.'/Public'.$uploadPic['newspic']['savepath'].$uploadPic['newspic']['savename'];
 			$newsdata['title'] = I("post.title");
-			$newsdata['content'] = trim(I("post.content"),"&lt;strong&gt;&lt;br /&gt;");
+			$newsdata['content'] = trim(I("post.content"),"&lt;strong&gt;&lt;br /&gt;","<div>");
 			$newsdata['posttime'] = I("post.posttime");
 			$newsdata['scantime'] = I("post.scantime");
 			$newsdata['schoolname'] = I("post.schoolname");

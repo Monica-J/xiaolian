@@ -8,7 +8,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
     <link rel="stylesheet" href="/xiaoliangit/xiaolian-v0.1/Public/front/css/jquery.mobile-1.4.5.min.css" />
     <script src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery-2.2.2.js"></script>
-    <script src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>
+    <!--<script src="/xiaoliangit/xiaolian-v0.1/Public/front/js/jquery.mobile-1.4.5.min.js"></script>-->
     <script src="/xiaoliangit/xiaolian-v0.1/Public/front/js/action-sheet.js"></script>
     <style>
         body{
@@ -46,15 +46,7 @@
 	            	<form method="post" action="/xiaoliangit/xiaolian-v0.1/index.php/Home/mine/xiugai" style="margin:50px 0 0 0;">						
 						<div>
 							
-							<div class="ui-grid-a">
-								<div class="ui-block-a">
-									<img src="/xiaoliangit/xiaolian-v0.1/Public/front/images/mine-shezhi-uname.png" style="float:left; margin:14px 0 0 0;">
-									<label for="username" style="margin:20px 90px 0 0px;" >用户名</label>
-								</div>
-								<div class="ui-block-b" style="margin:0px 0px 0 -60px;">
-									<input type="text" name="username" id="username" value="<?php echo ($u["username"]); ?>">
-								</div>
-							</div>
+							
 							
 							<div class="ui-grid-a">
 								<div class="ui-block-a">

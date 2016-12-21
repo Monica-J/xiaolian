@@ -38,7 +38,7 @@
                         <a href="chengjiu.html"><img src="__PUBLIC__/front/images/mine-chengjiu.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">成就 5</p></a>
                     </li>
                     <li>
-                        <a href="tixing.html"><img src="__PUBLIC__/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 4</p></a>
+                        <a href="tixing.html"><img src="__PUBLIC__/front/images/mine-tixing.png" style="margin:4px 0 3px -50px;"><p style="margin:-24px 0 0 25px;">提醒 {$dt}</p></a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +70,7 @@
                         <p style="float:right; margin:-13px 0 0 0; font-size:8px;">{$d.addtime}</p>
                         <div class="content">
                             <p style="margin:24px 0 0 20px;">{$d.content}</p>
-                            <img src="__PUBLIC__/front/images/mine-hsd.png" width="300px" height="150px" style="margin:6px 0 0 20px;">
+                            <img src="{$url}{$d.pic}" width="300px" height="150px" style="margin:6px 0 0 20px;">
                         </div>
                         <br/>
                         &nbsp;<img src="__PUBLIC__/front/images/mine-dianzan.png"><small style="color:#8E8E8E;font-size:12px;font-weight:200;">{$d.scantime}</small>
@@ -161,6 +161,7 @@
         function logOutIn(){
             var r = confirm("是否退出登录？");
             if (r == true) {
+
                 window.location.href = '__MODULE__/denglu/enter.html'
             }
             else{
