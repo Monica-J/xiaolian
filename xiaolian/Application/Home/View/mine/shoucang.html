@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>收藏</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="__PUBLIC__/front/css/jquery.mobile-1.4.5.min.css" />
+    <script src="__PUBLIC__/front/js/jquery-2.2.2.js"></script>
+    <script src="__PUBLIC__/front/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div data-role="page">
+		<div data-role="header" style="background-color:#6fd7ca; color:white;">
+			<a href="__MODULE__/mine/mine.html" data-icon="arrow-l" data-iconpos="notext"></a>
+			<h1 style="font-weight:200;">收藏</h1>			
+		</div>
+		<div data-role="content">
+			<div>
+            <volist name="collection" id="c">
+                <a href="" onclick="location.href='__MODULE__/index/activity_specific/id/{$c.nid}'" style="text-decoration:none;">
+                	<span>
+                		<img src="{$c.newspic}" style="width:100%">
+                		<p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;">{$c.content}</p>
+                    </span>
+                </a>
+                <img src="__PUBLIC__/front/images/longline.png" style="margin:-10px 0 10px -15px";>
+                </volist>
+            </div>
+            
+            <!-- <div>
+                <a href="__MODULE__/mine/activity-specific.html" style="text-decoration:none;">
+                	<span>
+                		<img src="__PUBLIC__/front/images/index-activity.png" style="width:100%">
+                		<p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;">河北师范大学2016年度迎新送老晚会将于9月23日在软件楼门口举行，届时将会有精彩的演出，欢迎同学们前来观看</p>
+                    </span>
+                </a>
+            </div>
+            <img src="__PUBLIC__/front/images/longline.png" style="margin:-10px 0 10px -15px";>
+            <div>
+                <a href="__MODULE__/mine/activity-specific.html" style="text-decoration:none;">
+                	<span>
+                		<img src="__PUBLIC__/front/images/index-activity.png" style="width:100%">
+                		<p style="color:#8E8E8E;font-size:12px;font-family:'微软雅黑';font-weight:200;">河北师范大学2016年度迎新送老晚会将于9月23日在软件楼门口举行，届时将会有精彩的演出，欢迎同学们前来观看</p>
+                    </span>
+                </a>
+            </div> -->
+		</div>
+	</div>
+</body>
+</html>

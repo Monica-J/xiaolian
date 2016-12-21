@@ -27,15 +27,16 @@
     <div data-role="page">
        <form method="post" action="__MODULE__/mine/adddongtai" enctype="multipart/form-data">
         <div data-role="header" style="background-color:#6fd7ca; color:white;">
-            <a href="mine.html"  onclick="location.href='__MODULE__/mine/mine'" data-icon="arrow-l" data-iconpos="notext"></a>
-            <h1 style="font-weight:200">说说你想说的吧</h1>  
+            <br/>
+            <p style="font-size:13px; font-family:'微软雅黑'; margin:16px 0 0 -20px;">说说你想说的吧</p>
+            <div style="margin:-25px 0 0 -320px;"><a href="mine.html" onclick="location.href='__MODULE__/mine/mine'"><img src="__PUBLIC__/front/images/dongtai-back.png"></a></div>  
         </div>
         
         <div data-role="content">
            
                 <div class="ui-field-contain">
                     <label for="textarea"></label>
-                    <textarea cols="50" rows="5" id="textarea" name="content" >说点什么吧...100字以内哦</textarea>
+                    <textarea cols="50" rows="5" id="textarea" name="content" >说点什么吧...</textarea>
                     
                     <!-- <input type="text"  id="mima" class="mima" name="content"  data-role="none" > -->
                 </div>
@@ -46,9 +47,9 @@
                     <br/>
                     <br/>
                     <br/>
-                    <img src="__PUBLIC__/front/images/dongtai-pic.png" style="float:left; margin-top:-35px;">
+                    <input type="file" name="pic" style="margin:10px 0 0 90px;" value="选取文件">
+                    <img src="__PUBLIC__/front/images/dongtai-pic.png" style="float:left; margin:-35px 0 0 30px;">
                     <p style="margin-top:5px; color:#6fd7ca; font-size:13px; text-align:center;">（可以选择图片上传哦）</p>
-                    <input type="file" name="pic" style=" position:absolute; left:100px;top:170px;" value="选取文件">
                 </form>             
             </div>
             
@@ -58,28 +59,6 @@
             <input type="submit"  value="提交" style="background-color:#6fd7ca;">
            
     </div>
-    <SCRIPT type="text/javascript">    
-        function textdown(e) {
-            textevent = e;
-            if (textevent.keyCode == 8) {
-                return;
-            }
-            if (document.getElementById('textarea').value.length >= 100) {
-                alert("大侠，手下留情，此处限字100")
-                if (!document.all) {
-                    textevent.preventDefault();
-                } else {
-                    textevent.returnValue = false;
-                }
-            }
-        }
-        function textup() {
-            var s = document.getElementById('textarea').value;
-            //判断ID为text的文本区域字数是否超过100个 
-            if (s.length > 100) {
-                document.getElementById('textarea').value = s.substring(0, 100);
-            }
-        }
-</SCRIPT>     
+    
 </body>
 </html>
